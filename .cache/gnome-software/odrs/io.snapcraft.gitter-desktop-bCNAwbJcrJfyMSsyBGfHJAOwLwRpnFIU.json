@@ -1,0 +1,20 @@
+[
+    {
+        "app_id": "io.snapcraft.gitter-desktop-bCNAwbJcrJfyMSsyBGfHJAOwLwRpnFIU",
+        "date_created": 1557319854.0,
+        "description": "Could improve if basic functions like increase fontsize could be adjusted with ease. As of now it is very difficult to use this app due to fontsize issues.",
+        "distro": "Ubuntu",
+        "karma_down": 0,
+        "karma_up": 3,
+        "locale": "en_IN",
+        "rating": 60,
+        "reported": 0,
+        "review_id": 30977,
+        "score": 43,
+        "summary": "Need for easy customisation options",
+        "user_display": "hdsingh",
+        "user_hash": "c1e0e8d5cee31d8fa352747951a1b9a4e7d838de",
+        "user_skey": "0ed350d417ca1fadedcbf59526fbe5b4a04ca309",
+        "version": "4.1.0"
+    }
+]

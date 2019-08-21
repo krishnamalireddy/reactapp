@@ -1,0 +1,472 @@
+WEBVTT
+
+00:00.930 --> 00:09.480
+API oder Application Programming Interface ist ein Messenger, der die Anfrage entgegennimmt und dem System mitteilt
+
+00:09.780 --> 00:10.540
+was ist zu tun.
+
+00:11.380 --> 00:11.940
+Hä?
+
+00:12.310 --> 00:14.190
+Das bedeutet nicht viel, oder?
+
+00:14.360 --> 00:20.160
+In diesem Video werde ich Ihnen genau erklären, was eine API ohne diesen verwirrenden Wortlaut ist.
+
+00:21.220 --> 00:22.910
+Ich habe hier "skyscanner".
+
+00:23.030 --> 00:26.500
+Wenn Sie es noch nie verwendet haben, handelt es sich um eine Aggregator-Website.
+
+00:26.590 --> 00:35.230
+Ich suche nach einem Flug von LA nach New York und durchsucht alle Websites nach allen Fluggesellschaften für die
+
+00:35.230 --> 00:36.410
+beste Angebote für mich.
+
+00:37.660 --> 00:40.440
+Wie ist es dazu in der Lage?
+
+00:40.650 --> 00:48.290
+Es hat alle diese Flüge von verschiedenen Websites gefunden. Aber Skyscanner hat die Informationen nicht wirklich.
+
+00:48.310 --> 00:54.920
+Ich meine, diese Information befindet sich irgendwo in der Datenbank jeder einzelnen Fluggesellschaft.
+
+00:56.950 --> 01:05.320
+Aber als Fluggesellschaft sind Sie daran interessiert, diese Daten auf Skyscanner zu haben, weil die Leute das mögen
+
+01:05.470 --> 01:10.330
+Möchten Sie einen Flug buchen, wissen Sie vielleicht nicht, dass Sie AmericanAirlines.com besuchen können
+
+01:10.690 --> 01:14.320
+Also, indem Sie ihre Informationen auf einer Website wie dieser aufgelistet haben.
+
+01:14.590 --> 01:19.200
+Nun, sie können ihre Einnahmen erhöhen.
+
+01:19.240 --> 01:24.860
+Wie kann Skyscanner das machen, ohne diese Informationen selbst zu haben?
+
+01:25.980 --> 01:26.780
+Gut,
+
+01:27.060 --> 01:28.620
+Dorthin kommt die API.
+
+01:28.680 --> 01:35.730
+Wenn Sie sich erinnern, ist APIs, was Fremde erlaubt, miteinander zu sprechen, so dass wir nicht in einem geschlossenen sind
+
+01:35.790 --> 01:36.510
+System.
+
+01:36.720 --> 01:46.630
+Wir können Daten teilen und miteinander und mit APIs arbeiten, wodurch Computer und Computer kommunizieren können.
+
+01:46.830 --> 01:53.100
+Das hört sich vertraut an, als ob wir mit Webbrowsern sprechen würden
+
+01:53.250 --> 01:53.780
+Server, oder?
+
+01:54.060 --> 01:57.960
+Nun ja, denn API ist ein weites Thema.
+
+01:58.110 --> 02:02.050
+Es gilt für die Art, wie Maschinen kommunizieren.
+
+02:02.070 --> 02:10.140
+Wenn ich meine Konsole hier öffne, habe ich immer erwähnt, dass es ein Fensterobjekt gibt. und das Fensterobjekt
+
+02:10.140 --> 02:16.940
+hat holen. und fetch ist eine API.
+
+02:17.140 --> 02:27.970
+Es wird vom Browser zur Verfügung gestellt, damit ich mit diesem Rechner kommunizieren kann, dass die Konsole kommunizieren kann
+
+02:28.030 --> 02:30.450
+mit dem Browser. Auf die gleiche Weise,
+
+02:32.060 --> 02:42.010
+obwohl Skyscanner keinen Zugriff auf die Datenbanken von American Airlines und Alaska Airlines hat
+
+02:42.020 --> 02:49.430
+Die anderen Fluggesellschaften verwenden APIs oder gewähren über APIs Zugriff auf diese Informationen.
+
+02:49.700 --> 02:57.580
+So dass Websites wie Skyscanner die Informationen auch haben und auf ihren Websites aufgelistet werden können.
+
+02:57.750 --> 03:04.830
+Der beste Weg, darüber nachzudenken, ist ein bisschen wie ein Kellner. Du sitzt an einem Tisch um zu bestellen und
+
+03:04.920 --> 03:09.340
+der Kellner ist der Bote, der der Küche sagt, was zu tun ist.
+
+03:09.390 --> 03:12.930
+Die Küche stellt dem Kellner das Restaurant zur Verfügung, oder?
+ 
+03:12.930 --> 03:18.260
+Das Restaurant sagt "Hey, Kellner, das sind die Menüpunkte.
+
+03:18.390 --> 03:24.480
+Bitte frag den Kunden, was er will und lass es uns wissen, damit wir uns vorbereiten können. "
+
+03:24.690 --> 03:28.510
+Und das klingt vielleicht ähnlich, oder?
+
+03:28.530 --> 03:38.420
+Wir fragen eine andere Maschine nach etwas, das - sagen wir, einen Kellner - verwendet und diese Maschine gibt uns eine Antwort.
+
+03:38.430 --> 03:47.820
+Wenn wir so mit ihm reden, wie es erwartet. Und ja, ein Server verfügt über APIs, mit denen sie kommunizieren können.
+
+03:48.510 --> 03:54.410
+wie etwa "users / about". Auf die gleiche Weise,
+
+03:54.490 --> 04:02.770
+Wir haben unseren Code auch schon früher, als wir Robofriends gebaut haben. Reagieren Sie, welches eine Bibliothek ist, die von gebaut wird
+
+04:02.770 --> 04:09.680
+Facebook stellt eine API für die Kommunikation mit dem React-Paket bereit
+
+04:09.920 --> 04:20.750
+indem Sie reagieren Komponente und JSX verwenden. Sie sagen uns, wie wir damit kommunizieren können und wir können kommunizieren
+ 
+04:20.750 --> 04:21.200
+damit.
+
+04:21.350 --> 04:23.950
+Hmm, lass uns ein bisschen mehr daran arbeiten.
+
+04:24.080 --> 04:29.050
+Was ist mit- was ist das?
+
+04:29.060 --> 04:30.250
+Ist das eine API?
+
+04:30.470 --> 04:33.040
+Es ist eine Rückseite eines Fernsehers.
+
+04:33.410 --> 04:41.660
+Ja, es ist eine API. Ein Fernseher funktioniert auf seine eigene Weise, aber Sie haben Zugriff auf einige Dinge wie das HDMI-Kabel,
+
+04:41.660 --> 04:45.420
+damit du dich damit verbinden und damit kommunizieren kannst.
+
+04:46.500 --> 04:54.030
+Wie zum Beispiel Ihren Laptop in den Fernseher anzeigen. Und wir haben in der Robofriends-Demonstration auch APIs verwendet.
+
+04:54.030 --> 05:04.760
+Wir haben bereits über React gesprochen, aber Sie erinnern sich an den JSON-Platzhalter? die Benutzer, die wir bekommen haben?
+
+05:04.810 --> 05:11.770
+Nun, wenn ich auf ihre Website gehe, sehen wir, dass es sich um eine gefälschte Online-REST-API zum Testen und Prototyping handelt.
+
+05:11.780 --> 05:14.310
+Es ist eine API, also muss sie uns geben
+
+05:14.450 --> 05:19.380
+Es muss uns Informationen über etwas geben, das es hat. Wenn wir runtergehen,
+
+05:19.380 --> 05:28.290
+wir sehen, dass es Ressourcen hat und die API sagt uns, dass wir mit diesen Methoden auf sie zugreifen können.
+
+05:28.310 --> 05:37.500
+Wenn ich also hier nur "Kommentare" schreibe, sollte ich 500 Kommentare bekommen können, und los gehts.
+
+05:38.440 --> 05:41.330
+Ich bekomme eine Antwort in JSON,
+
+05:45.570 --> 05:48.590
+Und sogar mit RoboHash,
+
+05:48.660 --> 05:58.350
+Erinnern Sie sich, wie wir Bilder von Robotern von diesem robohash.org bekommen konnten? Das ist eine API.
+
+05:58.350 --> 06:01.520
+Wir können Robahash sagen, was auch immer.
+
+06:01.710 --> 06:09.990
+Und weil sie gesagt haben, dass der Weg, um auf diese API zuzugreifen, einfach Zufallszahlen nach robohash.org eintippen
+
+06:09.990 --> 06:20.290
+wir können darauf zugreifen. Und Leute bauen diese APIs normalerweise aus geschäftlichen Gründen auf
+
+06:20.290 --> 06:22.090
+als Fluggesellschaften, oder?
+
+06:22.450 --> 06:32.080
+Und sie haben den Anreiz, den Industriestandards zu entsprechen, beispielsweise JSON-Antworten zu erhalten.
+
+06:32.450 --> 06:40.190
+Und so erleichtert es einem Entwickler wie mir, Teile von verschiedenen Orten zu packen.
+
+06:40.490 --> 06:43.910
+Zum Beispiel habe ich hier die Github API.
+
+06:43.910 --> 06:47.120
+Sie können darüber nachlesen, aber ich kann auf Informationen von githup zugreifen.
+
+06:47.390 --> 06:55.490
+Ich greife also auf das Github Repo von Facebook zu und es sagt mir, wie viele Follower es hat, welche Biografie
+
+06:55.490 --> 06:56.170
+es hat.
+
+06:56.330 --> 07:02.870
+Wenn ich zu Apple gehe, kann ich den Apple Benutzernamen auch erhalten.
+
+07:02.870 --> 07:08.000
+Und Sie können sehen, dass es im JSON-Format ist, weil das der Standard ist.
+
+07:08.000 --> 07:16.380
+Wenn wir etwas mit Github bauen wollen, können wir einfach eine Anfrage senden, um diese Daten zu erhalten und
+
+07:16.420 --> 07:18.930
+Erstellen Sie unsere Website basierend auf diesen Daten.
+
+07:20.790 --> 07:27.620
+Aber es ist nicht nur JSON. Wenn Sie sich erinnern, gibt es auch XML. Dies ist eine Beispiel-API, die uns zeigt
+
+07:27.710 --> 07:35.150
+ein Frühstücksmenü und hier können wir diese Daten über HTTP anfordern und wir bekommen Frühstückskarte.
+
+07:35.450 --> 07:41.510
+Wie Sie sehen können, sind APIs nicht nur Websites.
+
+07:41.630 --> 07:42.530
+Die Ein- und Ausgänge eines Fernsehers
+
+07:42.530 --> 07:48.830
+Das ist eine API. Ein NPM-Paket kann eine API sein.
+
+07:49.010 --> 07:56.300
+Wie ich schon sagte, ist es ein Weg, dass Menschen kommunizieren oder Maschinen kommunizieren und Informationen teilen.
+
+07:56.420 --> 08:00.970
+Ohne sie hätten wir wirklich nicht, was wir jetzt mit dem Worldwide Web haben.
+
+08:01.160 --> 08:05.220
+Aber wie ist das für uns nützlich?
+
+08:05.230 --> 08:09.950
+Nun, zuerst können wir so etwas ganz einfach bauen.
+
+08:10.090 --> 08:20.570
+Wir können API API jetBlue, API American Airlines wirklich suchen. Und sie werden Informationen darüber haben, wie wir es können
+
+08:20.570 --> 08:23.330
+greifen Sie auf diese Daten zu, damit wir unser eigenes Ding bauen können.
+
+08:23.330 --> 08:28.700
+Diese Website macht nur HTTP-Anfragen an so etwas wie hier.
+
+08:30.520 --> 08:37.210
+Und dann greifen Sie auf diese Daten und fügen nur etwas CSS hinzu, damit es gut aussieht. Und es gibt Tonnen von
+
+08:37.210 --> 08:39.320
+APIs online können Sie sie suchen,
+
+08:39.420 --> 08:40.930
+Sie können über sie nachlesen.
+
+08:40.960 --> 08:46.930
+Große Unternehmen wie Facebook haben APIs, Google hat APIs, vielleicht kennen Sie Google Maps immer
+
+08:46.930 --> 08:48.770
+Google Maps auf einer Website,
+
+08:48.940 --> 08:51.910
+Es nutzt die Google API.
+
+08:51.950 --> 08:59.530
+Wir haben auch eine dumme API wie diese, eine meiner Favoriten, es ist die Star Wars API. Es zeigt dich vorbei
+
+08:59.540 --> 09:11.880
+hier, wenn ich "people / 2 /" mache, bekomme ich "C-3PO". Wenn ich "people / 3 /" mache, bekomme ich "R2-D2".
+
+09:12.110 --> 09:15.600
+Ich kann auch "Planeten" machen.
+
+09:15.650 --> 09:24.740
+Dies ist eine kostenlose, benutzerfreundliche API, so dass Sie eine Beispiel-App mit der Star Wars-API und allem, was Sie brauchen, erstellen können
+
+09:24.740 --> 09:36.050
+zu tun ist nur diese Ressource zu holen, die JSON in ein JavaScript-Objekt konvertiert und dann style und
+
+09:36.050 --> 09:38.790
+Verwenden Sie es in Ihrer App, ganz wie Sie wollen.
+
+09:40.490 --> 09:48.100
+Es gibt auch einige wirklich wichtige APIs, die, wenn Sie seriöse Websites erstellen, wirklich nützlich sind.
+
+09:48.140 --> 09:49.740
+Dies ist die "Streifen-API".
+
+09:49.910 --> 09:56.720
+Wenn Sie Zahlungen in Ihre Website integrieren möchten, dann zeigt Ihnen das genau, was zu tun ist.
+
+09:57.380 --> 10:01.590
+Und Sie können Ihren Server in der gewünschten Sprache hinzufügen.
+
+10:01.590 --> 10:09.150
+In unserem Fall sind wir an Node interessiert und erfahren, wie Sie "stripe" als Zahlungsmethode hinzufügen können
+
+10:09.150 --> 10:09.820
+dein Server.
+
+10:10.080 --> 10:13.130
+Es klingt gruselig, aber es ist alles hier dokumentiert.
+
+10:13.170 --> 10:16.030
+Es ist Schritt für Schritt Anleitung, wie es geht.
+
+10:17.470 --> 10:28.910
+Eine andere, die ich wirklich mag, ist die "Twilio API". Und Twilio ermöglicht das Senden von Nachrichten auf Telefonen. Also benutzen
+
+10:28.910 --> 10:34.770
+etwas einfaches wie das können Sie sehen, es gibt nicht viel anderes als die Verwendung dieses client.messages.create
+
+10:34.850 --> 10:36.420
+dass sie liefern.
+
+10:36.710 --> 10:43.370
+Und wir sagen nur, wie wir den Textkörper haben wollen, zu welcher Nummer, von welcher Nummer, wenn wir wollen
+
+10:43.370 --> 10:48.040
+um vielleicht ein Herz einzubeziehen, dann können wir das auch hinzufügen.
+
+10:48.170 --> 10:56.030
+Nehmen wir an, wenn sich ein Benutzer für einen Dienst anmeldet. Nun, wir können ihnen eine Nachricht schicken, indem wir sagen "Hey, wir haben
+
+10:56.030 --> 10:57.620
+erstellt einen neuen Benutzer.
+
+10:57.620 --> 11:00.240
+Sie haben uns ihre Telefonnummer zur Verfügung gestellt.
+
+11:00.350 --> 11:03.400
+Sende ihnen eine SMS. "
+
+11:03.410 --> 11:07.510
+Jetzt denken Sie vielleicht, das ist fast zu schön, um wahr zu sein.
+
+11:07.580 --> 11:12.020
+Sie haben so viel Macht, jetzt können Sie nur APIs recherchieren.
+
+11:12.050 --> 11:16.640
+Und alle großen Websites haben API-Daten, die sie Ihnen geben.
+
+11:16.670 --> 11:23.420
+Nun, Dinge wie Robohash und Star Wars API. Sie sind albern und sie machen Spaß und es gibt keine wirklichen Kosten
+
+11:23.420 --> 11:23.900
+zu ihnen.
+
+11:24.720 --> 11:31.440
+Aber wenn Sie anfangen, echte Anwendungen und Unternehmen wie Stripe und Twilio zu bauen, wo es welche gibt
+
+11:31.440 --> 11:39.360
+echter Engineering-Aufwand hinter der Erstellung dieser. Nun, sie verlangen. Sie berechnen einen Service und das ist wann
+
+11:39.360 --> 11:45.960
+Sie verwenden so etwas wie einen API-Schlüssel. Und ein API-Schlüssel sieht wie Jibberish aus.
+
+11:46.010 --> 11:54.270
+Es ist ein Schlüssel, ein privater Schlüssel, so dass Sie jedes Mal, wenn Sie auf ihre API zugreifen, wissen, dass Sie es sind.
+
+11:54.410 --> 12:02.000
+Und sagen wir mal, Sie haben einen Plan, um tausend Anfragen zu machen. Sie berechnen Ihnen, weil sie können
+
+12:02.000 --> 12:05.570
+erkenne, dass du sagst:"Oh, das ist Andreas Schlüssel.
+
+12:05.780 --> 12:11.720
+Er ist derjenige, der die Anfrage von einem Server macht und wir werden ihn dafür belasten. "Und keine Sorge.
+
+12:11.720 --> 12:17.060
+In unserem abschließenden Projekt werden wir eine wirklich wirklich coole Machine-Learning-API verwenden, und wir werden gehen
+
+12:17.060 --> 12:20.210
+um unseren API-Schlüssel zu generieren und ihn tatsächlich zu verwenden.
+
+12:20.480 --> 12:22.940
+Zum Glück für uns, obwohl es kostenlos ist.
+
+12:23.120 --> 12:24.350
+Es wird also sehr viel Spaß machen.
+
+12:26.220 --> 12:34.740
+Aber von diesem Video möchte ich, dass du dich daran erinnerst. Ein Server irgendwo in der Welt für ein Unternehmen bietet
+
+12:35.190 --> 12:37.830
+eine API. Damit andere es benutzen können,
+
+12:37.830 --> 12:40.490
+Normalerweise sagen sie dir, wie man es benutzt.
+
+12:41.600 --> 12:44.630
+Und sie haben Dokumentation, wie man es benutzt.
+
+12:44.810 --> 12:51.830
+Aber die meisten von ihnen entsprechen dem Standard wie JSON, um Entwicklern wie uns die Verwendung zu erleichtern.
+
+12:52.130 --> 12:58.070
+Und am Ende des Tages ist eine API ein Werkzeug für die Datenkommunikation.
+
+12:58.160 --> 13:06.820
+Es ist, wie ein Programm oder Software oder irgendetwas, das Code ausführt, anderen erlaubt, mit ihm zu kommunizieren.
+
+13:06.850 --> 13:15.740
+Es eröffnet eine große Möglichkeit, Websites zu erstellen, die mehr als nur Roboter auflisten.
+
+13:15.790 --> 13:24.670
+Sie können jetzt mit den gleichen Prinzipien Websites erstellen, die verschiedene APIs enthalten, um die Funktionalität zu erhalten
+
+13:25.150 --> 13:28.570
+von etwas wie Skyscanner.
+
+13:28.700 --> 13:30.150
+Wir sehen uns im nächsten.
+
+13:30.370 --> 13:30.590
+Tschüss
+�*kU�S      ]\�Q]\�Q@��4]\�Q   �    a,:https://c.udemycdn.com/13591012/de_DE/9bef9c8f-34a8-426a-a15f-17c022ed4691.vtt?nva=20190821110552&response-content-disposition=attachment%3B+filename=%22introduction-to-apis_edit-de.vtt%22&token=04fd4c16faac4362a4b6d strongly-framed 1 security-info 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 request-method GET request-Origin https://www.udemy.com response-head HTTP/2.0 200 OK
+date: Wed, 21 Aug 2019 07:05:53 GMT
+content-type: binary/octet-stream
+content-length: 14621
+etag: "b21835e85e376fed995916c1acd102dd"
+last-modified: Sun, 26 Aug 2018 21:59:51 GMT
+server: AmazonS3
+vary: Origin, Access-Control-Request-Headers, Access-Control-Request-Method
+access-control-allow-methods: GET
+access-control-allow-origin: https://www.udemy.com
+access-control-max-age: 3000
+x-amz-id-2: uriceFbFrsOw3CZTJHhlq5CIctSrPDbEGvC43hpnam9HEA5nLdQ2/iwAgYkDi5YOfNQNxWqQJdk=
+x-amz-meta-qqfilename: introduction-to-apis_edit-de.vtt
+x-amz-request-id: 171B1A7FFB52856F
+access-control-allow-credentials: true
+age: 11949281
+accept-ranges: bytes
+X-Firefox-Spdy: h2
+ original-response-headers date: Wed, 21 Aug 2019 07:05:53 GMT
+content-type: binary/octet-stream
+content-length: 14621
+etag: "b21835e85e376fed995916c1acd102dd"
+last-modified: Sun, 26 Aug 2018 21:59:51 GMT
+server: AmazonS3
+vary: Origin, Access-Control-Request-Headers, Access-Control-Request-Method
+access-control-allow-methods: GET
+access-control-allow-origin: https://www.udemy.com
+access-control-max-age: 3000
+x-amz-id-2: uriceFbFrsOw3CZTJHhlq5CIctSrPDbEGvC43hpnam9HEA5nLdQ2/iwAgYkDi5YOfNQNxWqQJdk=
+x-amz-meta-qqfilename: introduction-to-apis_edit-de.vtt
+x-amz-request-id: 171B1A7FFB52856F
+access-control-allow-credentials: true
+age: 11949281
+accept-ranges: bytes
+X-Firefox-Spdy: h2
+ ctid 1 eTLD1Access 1;0;3847452355, net-response-time-onstart 473 net-response-time-onstop 480   9

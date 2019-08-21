@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<application-state>
+  <context id="">
+    <application id="gnome-printers-panel.desktop" score="0" last-seen="0"/>
+    <application id="org.gnome.Evince.desktop" score="6" last-seen="1566367419"/>
+    <application id="org.gnome.FileRoller.desktop" score="1" last-seen="1566370785"/>
+    <application id="org.gnome.Software.desktop" score="50" last-seen="1566380831"/>
+    <application id="gnome-background-panel.desktop" score="0" last-seen="0"/>
+    <application id="gnome-control-center.desktop" score="56" last-seen="1566368807"/>
+    <application id="org.gnome.gedit.desktop" score="201" last-seen="1566306801"/>
+    <application id="update-manager.desktop" score="1" last-seen="1566220207"/>
+    <application id="org.gnome.Nautilus.desktop" score="18" last-seen="1566384768"/>
+    <application id="eog.desktop" score="5" last-seen="1566365903"/>
+    <application id="brave_brave.desktop" score="104" last-seen="1566380686"/>
+    <application id="system-config-printer.desktop" score="1" last-seen="1566366879"/>
+    <application id="gnome-initial-setup.desktop" score="3" last-seen="1566220135"/>
+    <application id="filezilla.desktop" score="16" last-seen="1566306795"/>
+    <application id="firefox.desktop" score="6115" last-seen="1566384779"/>
+    <application id="org.gnome.Terminal.desktop" score="105" last-seen="1566384758"/>
+    <application id="thunderbird.desktop" score="0" last-seen="1566298928"/>
+  </context>
+</application-state>

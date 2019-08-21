@@ -1,0 +1,3 @@
+usb-creator 2019-08-19 18:49:45,005 (DEBUG) backend.py:26: UDisks2Backend
+usb-creator 2019-08-19 18:49:45,169 (DEBUG) backend.py:66: detect_devices
+usb-creator 2019-08-19 18:49:51,945 (DEBUG) backend.py:181: cancel_install

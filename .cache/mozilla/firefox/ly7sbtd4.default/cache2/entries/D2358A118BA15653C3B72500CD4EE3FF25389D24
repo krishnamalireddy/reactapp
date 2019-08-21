@@ -1,0 +1,908 @@
+WEBVTT
+
+00:01.490 --> 00:02.700
+Ben tornato.
+
+00:02.840 --> 00:05.050
+Questa è la parte che diventa davvero eccitante.
+
+00:05.360 --> 00:11.230
+È possibile utilizzare JavaScript per ascoltare eventi e ciò in base a ciò che l'utente fa.
+
+00:11.240 --> 00:19.900
+Ora cosa intendo per eventi? Gli eventi sono cose come il clic, l'inserimento del mouse o il passaggio del mouse
+
+00:20.470 --> 00:24.170
+su qualcosa o l'utente che prova qualcosa in una barra di ricerca.
+
+00:25.560 --> 00:31.310
+Quindi possiamo ascoltare questi eventi e reagire a loro usando JavaScript.
+
+00:31.320 --> 00:36.100
+Lascia che ti mostri come. Abbiamo tutte le liste della spesa dal video precedente.
+
+00:36.510 --> 00:39.310
+E se aggiungo un pulsante qui.
+
+00:42.060 --> 00:47.530
+E diremo semplicemente Click Me, salva e aggiorna.
+
+00:47.590 --> 00:50.800
+Abbiamo il pulsante Click Me.
+
+00:50.830 --> 00:57.340
+Ho anche creato un file JS dot script qui nella stessa cartella di index HTML e ovviamente lo
+
+00:57.340 --> 00:58.130
+vogliamo aggiungere.
+
+00:58.180 --> 01:08.070
+Quindi lo faremo proprio in fondo come abbiamo menzionato nei video precedenti e possiamo includerlo facendo riferimento alla
+
+01:08.070 --> 01:16.070
+fonte e lo chiameremo Script pensato solo per fare riferimento al nome sullo script.
+
+01:16.110 --> 01:19.420
+Salviamo ora imparando ciò che abbiamo imparato.
+
+01:19.430 --> 01:22.460
+Possiamo selezionare questo pulsante rapido.
+
+01:22.460 --> 01:25.830
+Proviamolo se vogliamo selezionare il pulsante.
+
+01:25.850 --> 01:38.600
+Posso dire che il punto del documento ottiene l'elemento in base al nome del tag e diremo il pulsante in modo che selezioni il pulsante per noi.
+
+01:38.620 --> 01:43.580
+OK, quindi come possiamo ascoltare il fatto che un utente può fare clic su questo pulsante.
+
+01:45.900 --> 01:51.770
+Quello che abbiamo chiamato eventi e ciò che questi sono e sono tutti collegati.
+
+01:51.780 --> 01:59.550
+Il riferimento qui è che ci sono un sacco di eventi che un browser Web ci permette di ascoltare.
+
+01:59.550 --> 02:06.360
+Quindi se guardi qui abbiamo eventi del mouse come il mouse che muove il mouse con un clic doppio clic.
+
+02:06.360 --> 02:10.400
+Abbiamo la stampa chiave e un sacco di altri eventi.
+
+02:10.740 --> 02:16.710
+Ma i più comuni e l'unica cosa che vedrai il 90 percento delle volte sono eventi del mouse ed
+
+02:16.710 --> 02:17.750
+eventi della tastiera.
+
+02:17.790 --> 02:23.450
+Quindi, se guardiamo qui, abbiamo un clic in modo che possiamo ascoltare il clic.
+
+02:23.610 --> 02:24.500
+Come possiamo farlo.
+
+02:25.530 --> 02:36.360
+Beh, nel mio script Paul dirò che il documento o chiamiamolo pulsante equivale
+
+02:36.600 --> 02:44.240
+a dot dot di Diagne e selezionerà il pulsante.
+
+02:44.440 --> 02:54.690
+Ora che abbiamo il riferimento al pulsante, ora posso dire che il pulsante Daut ha avuto il listener di eventi
+
+02:54.690 --> 03:01.380
+e questo è un metodo che possiamo usare e accetta due parametri.
+
+03:01.380 --> 03:03.910
+Il primo è l'evento.
+
+03:03.980 --> 03:12.040
+Nel nostro caso stiamo ascoltando l'evento click e il secondo parametro è la funzione o ciò che vogliamo
+
+03:12.040 --> 03:14.440
+fare in base al clic.
+
+03:14.500 --> 03:16.270
+Quindi nel
+
+03:19.030 --> 03:24.700
+nostro caso possiamo semplicemente dire console punto log click.
+
+03:24.790 --> 03:32.890
+Quindi stiamo dicendo che aveva un listener di eventi per questo pulsante che abbiamo selezionato ogni volta che l'utente fa clic
+
+03:32.890 --> 03:39.370
+su Voglio eseguire questa funzione e questa funzione è per fare clic sul log della console.
+
+03:39.460 --> 03:40.560
+Vediamo se funziona.
+
+03:40.720 --> 03:41.600
+E aggiorna.
+
+03:41.620 --> 03:49.770
+E vediamo che abbiamo il listener di eventi di aggiunta del pulsante non è una funzione e questo è dovuto
+
+03:49.830 --> 03:55.830
+al fatto che ricorda Ottieni elementi per nome tag restituisce una serie di pulsanti.
+
+03:55.830 --> 04:07.870
+Quindi se copiamo e incolliamo questo vediamo che per accedere al pulsante dobbiamo andare a 0 per accedere al primo elemento
+
+04:07.870 --> 04:09.060
+dell'array.
+
+04:09.060 --> 04:12.670
+Quindi questo è un errore molto comune che le persone fanno.
+
+04:12.670 --> 04:19.130
+Quindi assicurati che se ottieni questo errore è probabilmente perché stai provando a usare un
+
+04:19.130 --> 04:24.300
+metodo su un array e devi usare quel metodo sull'elemento reale OK.
+
+04:24.430 --> 04:27.550
+Lascia che ti chiuda e aggiusti questo
+
+04:30.830 --> 04:39.170
+per dire il primogenito perfetto. Vado a salvare un po 'più piccolo in modo che tu possa vedere e aggiornare e posso
+
+04:39.170 --> 04:46.820
+aprire la console e vedere cosa succede quando faccio clic fai clic fai clic clic fai clic su OK .
+
+04:46.880 --> 04:47.620
+Quindi sta funzionando.
+
+04:47.620 --> 05:00.410
+Stiamo ascoltando l'evento click molto interessante. Posso anche ascoltare qualcosa come il mio centro e l'altro
+
+05:00.800 --> 05:04.180
+orecchio qui e aggiornare.
+
+05:04.280 --> 05:06.680
+Puoi vedere qui che non appena lo
+
+05:09.590 --> 05:10.960
+inserisco, registra l'evento.
+
+05:11.210 --> 05:22.290
+Puoi anche fare il refresh del mouse e ogni volta che parto ricevo quell'evento.
+
+05:22.460 --> 05:23.270
+Molto bello
+
+05:23.450 --> 05:26.500
+Quindi c'è un sacco di loro sono tutti collegati a questo.
+
+05:26.510 --> 05:28.000
+Quindi puoi verificarlo da solo.
+
+05:28.010 --> 05:33.280
+Ma come ho detto eventi di tastiera e eventi del mouse è ciò che vorresti vedere.
+
+05:33.560 --> 05:38.990
+Quindi guardando questa lista penso che possiamo migliorarla.
+
+05:39.020 --> 05:47.480
+Penso che dovremmo avere un input e un pulsante in cui possiamo digitare qualcosa e aggiungere alla
+
+05:47.480 --> 05:49.410
+lista della spesa.
+
+05:49.510 --> 05:51.000
+Quindi cercherò di farlo.
+
+05:51.360 --> 05:56.380
+E andando a cancellare questo codice e voglio salvare e aggiornare.
+
+05:56.920 --> 06:04.390
+E cambieremo alcune cose qui invece di farmi clic sul pulsante che vogliamo
+
+06:05.320 --> 06:16.280
+dire Panter e otterremo questa unica classe di Cantor e abbiamo anche bisogno di un implicito che rimuoverò questo tag p
+
+06:16.280 --> 06:23.790
+e invece di nessuna scusa come sto per dire e mettere il testo tipo.
+
+06:24.240 --> 06:26.070
+Ti ricordi che è l'impostazione predefinita.
+
+06:26.120 --> 06:33.480
+E possiamo anche aggiungere un segnaposto di attributo inserire elementi.
+
+06:33.500 --> 06:41.130
+Quindi ora se salgo e rinfresco ho un segnaposto e posso digitare qualsiasi cosa desideri per
+
+06:41.130 --> 06:41.910
+adesso.
+
+06:42.800 --> 06:43.900
+Non fanno davvero niente.
+
+06:43.940 --> 06:50.240
+Idealmente quando facciamo clic su entra viene aggiunto in fondo alla lista.
+
+06:50.430 --> 06:51.440
+Quindi, come possiamo farlo.
+
+06:52.390 --> 06:55.410
+Per prima cosa avremo bisogno di selezionare questi elementi.
+
+06:55.540 --> 07:02.110
+Quindi l'unica cosa che mi piace davvero è assicurarmi di avere nomi di classi o ID validi per questi
+
+07:02.110 --> 07:04.690
+elementi in modo da poterli afferrare facilmente.
+
+07:04.720 --> 07:14.050
+Quindi vogliamo assolutamente prendere il pulsante che ha una classe oltre l'entrata, ma in realtà mi piace usare Id perché sarà davvero molto veloce
+
+07:14.060 --> 07:18.810
+per il browser Web prendere un ID perché ce n'è solo uno.
+
+07:18.970 --> 07:22.320
+Prestazioni saggia anche se è molto, molto minuscolo,
+
+07:22.450 --> 07:23.200
+aiuta.
+
+07:23.200 --> 07:25.880
+Quindi ho intenzione di cambiare l'ID di invio.
+
+07:26.150 --> 07:32.990
+E vogliamo anche catturare l'input dell'utente in modo che possiamo dargli un ID di input dell'utente.
+
+07:34.120 --> 07:42.400
+Ora apriamo il nostro file JS dot script e pensiamo alle poche cose che vogliamo selezionare.
+
+07:42.510 --> 07:52.750
+Vogliamo selezionare l'input e il pulsante in modo che possiamo farlo
+
+07:52.990 --> 07:59.620
+firmandoli a getElementById dot di documento variabile.
+
+07:59.730 --> 08:02.070
+E qui possiamo solo dire Antar.
+
+08:02.070 --> 08:08.910
+Ricorda che abbiamo firmato quell'ID e l'input sarà documentato.
+
+08:08.940 --> 08:21.040
+Ottieni aiuto e per ID e faremo l'input dell'utente qui e vogliamo aggiungere un listener di eventi al pulsante.
+
+08:21.160 --> 08:22.680
+Quindi facciamolo.
+
+08:22.840 --> 08:35.260
+Ho intenzione di dire che il pulsante Dot aveva un listener di eventi. Vogliamo ascoltare l'evento click e
+
+08:35.290 --> 08:38.780
+vogliamo eseguire l'azione per ora.
+
+08:38.860 --> 08:45.100
+Prima di entrare nel codice reale, è sempre bene testare ciò che abbiamo
+
+08:45.100 --> 08:50.760
+scritto finora, quindi faremo solo clic sul log della console.
+
+08:51.010 --> 08:56.970
+Salviamo la console e aggiorniamo.
+
+08:57.120 --> 09:00.320
+E se faccio clic, funziona correttamente.
+
+09:00.370 --> 09:02.380
+Tutto sembra buono finora.
+
+09:02.380 --> 09:04.880
+Idealmente possiamo inserire qualcosa qui.
+
+09:05.050 --> 09:08.860
+E quando clicco su entra, viene aggiunto in fondo alla lista.
+
+09:10.640 --> 09:12.970
+Come possiamo farlo pensiamo a questo.
+
+09:13.070 --> 09:22.420
+La prima cosa che vogliamo fare è creare un altro allineamento in modo che qualunque cosa entriamo
+
+09:22.420 --> 09:30.690
+debba essere aggiunta alla parte inferiore della candela, può usare qualcosa chiamato metodo create element.
+
+09:32.030 --> 09:43.910
+Quindi possiamo fare un documento di variabile alleati equo. Daut creare nuovamente l'elemento un altro metodo che il documento ci dà una fine qui
+
+09:43.910 --> 09:47.390
+diciamo solo quale elemento vogliamo creare.
+
+09:47.440 --> 09:53.980
+Nel nostro caso sarà una lista che un alleato può ora mentire.
+
+09:53.990 --> 09:56.730
+Abbiamo appena creato quella vita in questo Bowl.
+
+09:56.750 --> 09:59.620
+Vogliamo collegarlo in fondo alla lista.
+
+10:00.630 --> 10:06.850
+Di nuovo l'oggetto del documento ci dà qualcosa chiamato append child.
+
+10:06.890 --> 10:17.960
+Quindi se faccio una bugia che acclude il bambino ora qui per aggiungere al bambino se ricordiamo il nostro intero
+
+10:17.960 --> 10:26.170
+schema del dormitorio vediamo che ogni elemento ha un testo che sarà chiamato nodo.
+
+10:26.480 --> 10:32.310
+Quindi abbiamo bisogno di aggiungere una nota di testo facciamolo qui.
+
+10:32.410 --> 10:43.630
+Dovremo fare qualcosa chiamato documento creare un nodo di testo e quindi qui possiamo solo dire test.
+
+10:43.650 --> 10:50.850
+Quindi ora abbiamo collegato i test all'alleato che abbiamo appena creato.
+
+10:50.850 --> 11:02.360
+Tornando di nuovo al nostro diagramma, ho creato un elemento alleato e ho aggiunto il testo del test.
+
+11:02.510 --> 11:09.420
+Quindi l'ultima cosa che dobbiamo fare è allegare questo alla lista non ordinata.
+
+11:09.430 --> 11:20.950
+In questo momento quello che abbiamo fatto è che abbiamo creato un alleato che dice test.
+
+11:21.160 --> 11:26.790
+Ma questo in realtà non è collegato a nulla che semplicemente vive nel nostro programma.
+
+11:26.800 --> 11:30.920
+Ma abbiamo bisogno di collegarlo alla lista non ordinata.
+
+11:31.730 --> 11:38.410
+E il modo in cui lo facciamo è bene, prendiamo la lista non ordinata e poi aggiungiamola.
+
+11:38.420 --> 11:50.250
+Quindi, di nuovo, selezioneremo un selettore di interrogazione dei punti del documento con lista urgente e
+
+11:53.290 --> 11:56.030
+selezioneremo tutti voi.
+
+11:56.230 --> 11:57.970
+E ora possiamo dire
+
+12:00.950 --> 12:02.550
+che voglio
+
+12:05.440 --> 12:12.570
+aggiungere appunto un bambino a te. Bene, questo è menzogna quando lo creiamo.
+
+12:13.470 --> 12:14.540
+Quindi vediamo che in azione.
+
+12:14.540 --> 12:17.000
+Vado a salvare e aggiornare.
+
+12:17.250 --> 12:18.540
+Ho intenzione di chiudere la console.
+
+12:18.580 --> 12:23.440
+Vado a premere entra.
+
+12:23.630 --> 12:24.650
+Sta funzionando.
+
+12:25.100 --> 12:26.500
+Lascia che ti rinfreschi di nuovo.
+
+12:27.950 --> 12:28.850
+Ecco qua.
+
+12:29.240 --> 12:32.520
+Quindi funziona e abbiamo imparato alcune novità qui.
+
+12:33.330 --> 12:36.750
+Uno è che possiamo creare un elemento.
+
+12:36.750 --> 12:43.070
+Quindi ci basta dare il tag che vogliamo creare ma questo elemento deve.
+
+12:43.110 --> 12:47.880
+Bene, se vuoi mostrare qualcosa deve avere una sorta di testo al suo interno.
+
+12:47.970 --> 12:50.440
+Quindi questo è questo.
+
+12:50.490 --> 12:57.200
+Qui e il modo in cui funziona il modello di oggetto documento è che per creare un testo si
+
+12:57.380 --> 13:02.140
+crea una nota di testo e si inserisce tutto ciò che si desidera.
+
+13:02.630 --> 13:08.690
+Ora abbiamo creato l'offerta, ma dobbiamo collegarla a qualcosa che è parte della visione attuale in
+
+13:08.690 --> 13:09.470
+questo momento.
+
+13:09.470 --> 13:19.620
+Nel nostro caso vogliamo collegarlo alla lista non ordinata e usare il bambino apan che lo aggiunge da bambino questi
+
+13:19.620 --> 13:22.210
+tre sono abbastanza utili.
+
+13:22.420 --> 13:24.640
+Quindi dovrai solo esercitarli e ricordarli.
+
+13:25.430 --> 13:28.350
+Ma abbiamo qualcosa che funziona qui, che è buono.
+
+13:29.340 --> 13:36.980
+Ma idealmente possiamo mettere qualcosa in cui entriamo qui e non solo un test statico.
+
+13:37.050 --> 13:38.520
+Quindi, come possiamo farlo.
+
+13:38.800 --> 13:48.800
+Abbiamo l'input già acquisito e viene introdotto il modo in cui otteniamo il valore da un input.
+
+13:50.180 --> 13:58.700
+Daut non abbiamo più bisogno delle parentesi quadre è input dot thali e possiamo testarlo qui.
+
+13:58.720 --> 13:59.710
+Il dialogo di Konsole
+
+14:07.500 --> 14:08.430
+è stato aggiornato.
+
+14:08.460 --> 14:17.260
+Se clicco su invio ricevo ciao e dovrebbe anche essere collegato al fondo qui.
+
+14:21.230 --> 14:21.640
+OK.
+
+14:22.120 --> 14:27.790
+Quindi abbiamo una lista di cose da fare che possiamo inserire cose e risposte rapide.
+
+14:27.910 --> 14:35.750
+Ma cosa succede se è vuoto e faccio clic su entra a DC che continua a aggiungere cose.
+
+14:35.850 --> 14:44.520
+Idealmente possiamo saltare che se l'input è vuoto, entrare non dovrebbe fare nulla nel modo in cui lo facciamo.
+
+14:44.550 --> 14:47.820
+Beh, suona come una dichiarazione condizionale potrebbe essere utile qui.
+
+14:47.920 --> 14:52.000
+Possiamo fare se il valore di input è.
+
+14:52.240 --> 14:54.440
+Bene, cosa possiamo fare qui per testare.
+
+14:54.790 --> 15:02.680
+Se ricordi che abbiamo una proprietà a lunghezza intera su stringhe, la proprietà
+
+15:02.740 --> 15:08.500
+length ci dice quanti caratteri ha una stringa.
+
+15:08.540 --> 15:16.520
+Quindi possiamo fare qualcosa del genere per dire se si mette un valore a tutto ciò che è maggiore di zero.
+
+15:17.590 --> 15:26.860
+Quindi sposteremo questo qui.
+
+15:27.070 --> 15:28.090
+Altrimenti, bene.
+
+15:28.230 --> 15:31.640
+Altrimenti non abbiamo davvero bisogno di fare nulla.
+
+15:31.730 --> 15:36.600
+Lasceremo semplicemente che l'evento click avvenga senza alcuna azione.
+
+15:36.720 --> 15:44.700
+OK quindi vediamo che in azione puoi salvare e aggiornare e non farò nulla e premere INVIO
+
+15:45.150 --> 15:46.650
+non premere invio.
+
+15:47.070 --> 15:51.720
+Ma se scrivo qualcosa lo aggiunge alla lista.
+
+15:51.800 --> 15:57.290
+Ma ecco un altro problema che posso continuare ad aggiungere per sempre.
+
+15:57.300 --> 16:01.340
+Idealmente dopo che ho inserito qualcosa, tutto si chiarisce.
+
+16:01.390 --> 16:09.840
+Quindi permettimi di aggiornare e qui cosa possiamo fare alla fine di tutto ciò in cui possiamo dire
+
+16:09.840 --> 16:14.080
+e metterlo in valore equivale a una stringa vuota.
+
+16:16.050 --> 16:23.790
+Dopo aver creato il nuovo alleato e aggiunto alla lista non ordinata, voglio che il valore di input sia completamente vuoto e
+
+16:23.790 --> 16:25.160
+una stringa vuota.
+
+16:25.950 --> 16:28.120
+Salviamo e aggiorniamo.
+
+16:28.330 --> 16:34.620
+Proviamo a ciao, ciao, entra e guardalo.
+
+16:34.650 --> 16:39.570
+Ora devo digitare qualcosa di nuovo.
+
+16:41.590 --> 16:46.680
+Le cose giuste stanno iniziando a sembrare più belle ma è un po 'fastidioso che devo continuare a fare clic.
+
+16:46.790 --> 16:52.230
+Sarebbe bello anche solo premere Invio di nuovo a destra se guardiamo gli eventi.
+
+16:52.230 --> 16:55.770
+Abbiamo anche eventi di tastiera e tasti.
+
+16:55.770 --> 17:00.100
+Bene come suggerisce il nome, ascolta una sorta di pressione di un tasto.
+
+17:00.280 --> 17:05.900
+E fortunatamente per noi possiamo solo ascoltare la chiave di invio o la chiave di ritorno.
+
+17:07.290 --> 17:09.580
+Ora, come lo facciamo?
+
+17:09.840 --> 17:10.970
+Proviamo prima.
+
+17:11.020 --> 17:20.090
+Bene, copia e incolla questo e questa volta sull'input che sto per dire al posto dell'evento Click che
+
+17:20.150 --> 17:22.210
+sto per pronunciare.
+
+17:22.220 --> 17:27.950
+Quindi stiamo ascoltando l'evento stampa chiave e vogliamo fare esattamente la stessa cosa che abbiamo fatto
+
+17:28.420 --> 17:29.930
+in modo che funzioni.
+
+17:29.930 --> 17:32.890
+Quindi, come facciamo a sapere quando il tasto Invio è soppresso.
+
+17:34.000 --> 17:42.260
+Avremo qualcosa chiamato codici di caratteri e cioè possiamo ascoltare quale chiave è stata digitata e ognuno è associato
+
+17:42.260 --> 17:45.260
+a un codice con quel numero.
+
+17:45.290 --> 17:51.620
+Quindi, di nuovo questo sito Web che è collegato a I, posso semplicemente premere per una chiave qui e
+
+17:51.980 --> 17:57.010
+dirò esattamente quale codice ha, quindi se premo invio ricevo il codice chiave 13.
+
+17:57.170 --> 18:03.920
+Quindi stiamo ascoltando un codice chiave 13, ma ancora una volta come accederci.
+
+18:03.980 --> 18:06.130
+Apri la console qui.
+
+18:06.170 --> 18:14.530
+Ti mostrerò che il modo in cui lo facciamo è che ascoltiamo qualcosa chiamato evento dot che E io vado a
+
+18:14.530 --> 18:15.610
+registrare questo
+
+18:19.090 --> 18:26.890
+log ora e qui ho intenzione di commentare il software e così puoi vedere ogni volta un evento ascoltatori aggiunti.
+
+18:26.890 --> 18:32.540
+Abbiamo il tasto premuto e questa funzione riceve anche un parametro automaticamente.
+
+18:32.980 --> 18:34.300
+Questo è l'evento.
+
+18:34.360 --> 18:37.700
+Quindi possiamo chiamarlo possiamo chiamarlo evento.
+
+18:37.720 --> 18:49.500
+Nel mio caso lo chiamerò evento e ora quando l'utente preme un tasto dà a questa funzione un evento della descrizione di quell'evento che è accaduto in realtà
+
+18:49.500 --> 18:55.070
+la console di Leisure registra l'evento e vede di cosa si tratta.
+
+18:55.110 --> 19:05.970
+Ho intenzione di aggiornare e dire di tenere premuto il tasto e vedere che ho l'evento tastiera e qui ho un sacco di informazioni
+
+19:05.970 --> 19:11.240
+sull'evento che ho appena fatto anche quando ho premuto il tasto.
+
+19:11.340 --> 19:18.760
+Ma la cosa che è davvero importante qui è che vediamo che
+
+19:18.760 --> 19:33.900
+c'è il codice chiave e c'è anche il fatto che entrambi, se la mia stampante Enter, vediamo che il codice chiave è 13, che è 13.
+
+19:34.060 --> 19:36.090
+Facciamo un tentativo.
+
+19:36.330 --> 19:52.580
+Ora dirò che se il valore di input è maggiore di zero e l'evento il codice chiave del punto è uguale a 13, quindi
+
+19:53.150 --> 19:55.230
+aggiungi l'elemento all'elenco.
+
+19:55.460 --> 19:57.790
+Salviamo e rinfresciamo provatelo.
+
+19:58.070 --> 20:05.970
+Sto per dire che le liste della spesa avranno bisogno di pantaloni o Precentor del genere.
+
+20:07.280 --> 20:10.900
+E questo è per Jojo, aggiunge alla lista tutto
+
+20:13.660 --> 20:21.530
+sembra a posto, ma c'è un problema che sto avendo qui e cioè abbiamo un sacco di codice
+
+20:21.580 --> 20:22.900
+di ripetizione.
+
+20:22.900 --> 20:24.780
+Questo sembra davvero inutile.
+
+20:24.790 --> 20:31.630
+E come ho detto prima, uno dei principi con lo sviluppatore è secco, il che
+
+20:31.630 --> 20:33.100
+significa non ripetersi.
+
+20:33.100 --> 20:35.320
+Questo non è molto esteso o lo è.
+
+20:35.320 --> 20:40.810
+Sembra che stiamo solo copiando e incollando il codice e immaginiamo che se avessimo un sacco di eventi questo sarebbe
+
+20:40.810 --> 20:42.220
+solo un file enorme.
+
+20:42.340 --> 20:48.130
+Quindi estrapiamo parte della logica e mostriamo come possiamo fare qualcosa chiamato refactoring che sta facendo
+
+20:48.130 --> 20:50.620
+apparire un po 'meglio il codice.
+
+20:50.620 --> 20:57.910
+Una cosa che possiamo fare è che sembra nel nostro IF e stiamo facendo la stessa cosa che sta controllando che
+
+20:57.910 --> 21:01.570
+la lunghezza del valore di input sia maggiore di zero.
+
+21:02.020 --> 21:12.480
+Quindi, se possiamo aggiungere una funzione qui chiamata e messa a lunghezza intera e come suggerisce il nome, questo controlla e
+
+21:13.570 --> 21:21.420
+inserisce quel valore in lunghezza ma ricorda come funzione dobbiamo restituire qualcosa in caso contrario.
+
+21:21.480 --> 21:26.920
+Bene, eseguiremo questa funzione e diremo indefinito e indefinito non può essere definito indefinito a maggiore
+
+21:26.920 --> 21:27.750
+di zero.
+
+21:27.750 --> 21:29.250
+Questo non ha senso.
+
+21:29.280 --> 21:33.880
+Quindi restituisci il lenth.
+
+21:33.900 --> 21:43.080
+Quindi, di nuovo, l'abbiamo estratto, quindi possiamo solo dire e mettere a funzionare quella funzione, qualunque sia il rendimento
+
+21:43.080 --> 21:47.930
+è maggiore di zero e faremo lo stesso anche qui.
+
+21:51.310 --> 21:58.090
+Ora questo è un cambiamento minore, ma ora abbiamo qualcosa che possiamo usare ovunque ogni volta che creiamo un nuovo
+
+21:58.090 --> 21:59.470
+listener di eventi.
+
+21:59.470 --> 22:00.940
+Cos'altro possiamo ripulire.
+
+22:00.940 --> 22:06.130
+Sembra che tutto questo blocco di codice venga ripetuto qui.
+
+22:07.090 --> 22:20.550
+Quindi di nuovo possiamo chiamare una funzione creare un elemento di lista qui possiamo solo rimuovere questo codice aggiunto qui e ora possiamo solo
+
+22:24.060 --> 22:26.130
+dire di creare
+
+22:30.660 --> 22:39.410
+questo elemento e di nuovo rimuovere questo e dire creare questo accordo, basta salvare e
+
+22:42.230 --> 22:45.640
+vedere come tutto funziona al momento.
+
+22:45.760 --> 22:54.660
+Voglio aggiornare assicurati che la console non mi dia alcun errore e sto per dire Shell e se premo
+
+22:54.660 --> 22:55.470
+invio
+
+22:58.090 --> 22:59.320
+tutto funziona ancora.
+
+22:59.320 --> 23:04.040
+E nel caso che tutto sia vuoto non posso aggiungere nulla.
+
+23:04.040 --> 23:04.590
+Tutto ok.
+
+23:04.590 --> 23:06.450
+Il codice è carino.
+
+23:07.360 --> 23:09.070
+Legge abbastanza bene.
+
+23:09.920 --> 23:18.430
+L'ultima cosa che forse voglio fare è che invece di avere la funzione qui posso estrapolarlo.
+
+23:18.460 --> 23:23.830
+Posso aggiungere la funzione aggiungi lista dopo e possiamo solo
+
+23:28.910 --> 23:36.800
+dire di copiare questa funzione e assegnarla alla tua e non abbiamo più bisogno di questa funzione.
+
+23:40.730 --> 23:53.570
+E ora possiamo solo aggiungere la lista dopo clic e possiamo anche avere una lista di tasti funzione dopo aver
+
+23:53.590 --> 23:55.570
+premuto un tasto.
+
+23:55.650 --> 23:58.650
+Ed ecco la parte difficile.
+
+23:58.700 --> 24:05.430
+Ora dobbiamo copiare questo.
+
+24:05.610 --> 24:12.290
+Ma prima di lasciare questa funzione, vedi che dobbiamo ricevere un evento con questo.
+
+24:12.480 --> 24:17.960
+Quindi deve ricevere un parametro perché abbiamo bisogno di quell'informazione dall'evento.
+
+24:17.970 --> 24:28.140
+Quindi di nuovo quando passiamo quell'evento rimuoviamo questa funzione e abbiamo codice Tukey dell'evento.
+
+24:28.240 --> 24:31.760
+Vediamo se tutto funziona come previsto.
+
+24:32.920 --> 24:36.730
+Ho intenzione di salvare l'aggiornamento.
+
+24:36.910 --> 24:42.300
+Controlla se ci sono errori nella console e premi acqua.
+
+24:42.790 --> 24:47.330
+Questo è il succo d'acqua ha succo.
+
+24:47.500 --> 24:52.080
+E se non premo nulla o non provo niente, funziona ancora.
+
+24:52.120 --> 24:56.210
+Diamo un'occhiata a questo codice ancora una volta e vediamo cosa sta succedendo.
+
+24:56.230 --> 25:05.220
+Abbiamo iniziato selezionando gli elementi che ci interessano e notiamo che non siamo costantemente ogni volta che ne abbiamo bisogno
+
+25:05.230 --> 25:08.800
+dicendo che il documento ottiene Al Lombardi.
+
+25:09.100 --> 25:10.790
+Stiamo incassando questo.
+
+25:10.810 --> 25:14.830
+Quindi all'inizio, quando viene eseguito lo script, stiamo dicendo che lo ricordano.
+
+25:14.830 --> 25:17.520
+Lo userò e lo conserverò in un legame.
+
+25:17.800 --> 25:18.950
+E lo stesso con Bud.
+
+25:18.970 --> 25:20.640
+Lo stesso con la lista non ordinata.
+
+25:22.030 --> 25:28.840
+Abbiamo quindi un sacco di dichiarazioni di funzioni, ma queste non vengono mai eseguite perché stanno solo dicendo che
+
+25:29.080 --> 25:32.530
+abbiamo questa funzione, ma nessuno le ha ancora eseguite.
+
+25:32.720 --> 25:39.340
+E il programma va in fondo e dice hey non ho un ascoltatore per klick se qualcuno fa
+
+25:39.670 --> 25:42.250
+clic sul pulsante esegue questa funzione.
+
+25:42.590 --> 25:49.200
+E se qualcuno ha mai premuto il tasto sull'ingresso, chiama questa funzione.
+
+25:49.330 --> 25:56.290
+E ora ogni volta che faccio clic su questo viene attivato e va qui dice hey ha una
+
+25:56.290 --> 25:59.050
+lunghezza maggiore di zero se lo è.
+
+25:59.050 --> 26:01.740
+Crea un elemento di lista.
+
+26:01.990 --> 26:03.400
+Ed eccolo qui.
+
+26:03.400 --> 26:10.500
+E se mai dovessi premere un tasto, controlla se l'input è maggiore di zero.
+
+26:10.750 --> 26:19.600
+Poi controllo per vedere se premo il tasto Invio e poi creo un elemento list e questo sembra abbastanza
+
+26:19.630 --> 26:20.470
+pulito.
+
+26:20.560 --> 26:23.820
+Chiunque può entrare se conosce un po 'di JavaScript.
+
+26:23.830 --> 26:29.350
+Puoi leggere ciò che sta accadendo solo dal codice e questo è qualcosa che
+
+26:29.350 --> 26:32.200
+vuoi davvero cercare dove non vuoi ripeterti.
+
+26:32.200 --> 26:40.490
+Si desidera memorizzare nella cache queste query in modo tale da non consumare troppa energia per il browser.
+
+26:41.550 --> 26:49.450
+E abbiamo tutto suddiviso in funzioni che sono molto molto semplici OK.
+
+26:49.690 --> 26:50.990
+Questo è tutto per ora.
+
+26:51.010 --> 26:57.340
+Aggiungi gli elementi della lista della spesa di cui hai bisogno e ci vediamo nel prossimo video. Ciao ciao.
+y-��5      ]\�f]\�f@��B]\�f   �    a,:https://c.udemycdn.com/10459278/it_IT/2019-02-08_15-13-59-6daf8bfc9e5e3b236527ed66fd85582b.vtt?nva=20190821110613&response-content-disposition=attachment%3B+filename=%22it_itdom-events_edit.vtt%22&token=0572bcef18d4119e032dc strongly-framed 1 security-info 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 request-method GET request-Origin https://www.udemy.com response-head HTTP/2.0 200 OK
+date: Wed, 21 Aug 2019 07:06:14 GMT
+content-type: application/octet-stream
+content-length: 25906
+etag: "7ed3744e91153f2dcc02ad5d380712df"
+last-modified: Sat, 09 Feb 2019 02:59:22 GMT
+server: AmazonS3
+vary: Origin, Access-Control-Request-Headers, Access-Control-Request-Method
+access-control-allow-methods: GET
+access-control-allow-origin: https://www.udemy.com
+access-control-max-age: 3000
+x-amz-id-2: /yAPSNd36X3DRxUGQCptVZL/3ZfGaGlHl7gRiBK0mMCSOsVY5RsETfRwXmzOSBCl7Yw4/R5QXW8=
+x-amz-request-id: E42C3AB4177098B9
+access-control-allow-credentials: true
+age: 11950380
+accept-ranges: bytes
+X-Firefox-Spdy: h2
+ original-response-headers date: Wed, 21 Aug 2019 07:06:14 GMT
+content-type: application/octet-stream
+content-length: 25906
+etag: "7ed3744e91153f2dcc02ad5d380712df"
+last-modified: Sat, 09 Feb 2019 02:59:22 GMT
+server: AmazonS3
+vary: Origin, Access-Control-Request-Headers, Access-Control-Request-Method
+access-control-allow-methods: GET
+access-control-allow-origin: https://www.udemy.com
+access-control-max-age: 3000
+x-amz-id-2: /yAPSNd36X3DRxUGQCptVZL/3ZfGaGlHl7gRiBK0mMCSOsVY5RsETfRwXmzOSBCl7Yw4/R5QXW8=
+x-amz-request-id: E42C3AB4177098B9
+access-control-allow-credentials: true
+age: 11950380
+accept-ranges: bytes
+X-Firefox-Spdy: h2
+ ctid 1 eTLD1Access 1;0;3847452355, net-response-time-onstart 343 net-response-time-onstop 346   e2

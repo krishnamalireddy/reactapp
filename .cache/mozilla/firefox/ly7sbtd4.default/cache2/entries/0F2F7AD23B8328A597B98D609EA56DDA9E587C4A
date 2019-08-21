@@ -1,0 +1,664 @@
+WEBVTT
+
+00:01.000 --> 00:07.210
+Willkommen zurück. Im letzten Video haben wir über das Document Object Model gesprochen und einige von euch haben es vielleicht auch getan
+
+00:07.210 --> 00:08.240
+eine Frage.
+
+00:08.590 --> 00:17.550
+Als er mir das Fenster zeigte, sah es aus wie ein Objekt. Sie haben Eigenschaften und Methoden.
+
+00:17.840 --> 00:24.360
+Aber wann immer wir auf das DOM zugreifen, das Dokument, nun, es sieht nicht so aus, als würde das Objekt es tun?
+
+00:24.550 --> 00:26.630
+Es sieht wie HTML aus.
+
+00:26.950 --> 00:31.120
+Und das liegt daran, dass Webbrowser nur die Tatsache verbergen, dass es sich um ein Objekt handelt.
+
+00:31.120 --> 00:36.380
+Sie geben uns nur eine schöne Aussicht, damit wir besser damit spielen können.
+
+00:36.520 --> 00:39.870
+Aber es ist ein Javascript-Objekt.
+
+00:39.910 --> 00:46.060
+Mit diesem Dokument können wir Selektoren verwenden, um verschiedene Elemente auszuwählen
+
+00:46.060 --> 00:47.840
+manipuliere sie.
+
+00:47.920 --> 00:53.710
+Ich werde Ihnen heute einige davon zeigen, die am häufigsten verwendet werden
+
+00:54.010 --> 00:55.530
+in deinem heutigen Tag.
+
+00:55.690 --> 01:06.070
+Webentwicklerrolle Wenn Sie das erste Dokument, das ich Ihnen zeigen werde, dokumentieren, erhalten Sie getElementsByTagName.
+
+01:07.230 --> 01:11.580
+Wie der Name schon sagt, akzeptiert er einen Tag-Namen.
+
+01:11.580 --> 01:19.230
+In unserem Fall, wenn wir unsere Index-HTML-Datei gut betrachten, habe ich für Sie eine Einkaufsliste erstellt und wenn
+
+01:19.230 --> 01:21.630
+Ich minimiere dies, damit du es sehen kannst.
+
+01:21.930 --> 01:26.420
+Wir haben eine einfache HTML-Datei und es sieht so aus, als ob es eine wichtige Einkaufsliste ist.
+
+01:26.430 --> 01:29.280
+Es könnte jemandes Geburtstag sein und sie bekommen ein Notizbuch.
+
+01:29.280 --> 01:30.050
+Gut.
+
+01:30.180 --> 01:33.010
+Also mit dem Tag-Namen kann ich gut sagen, was Tag tun.
+
+01:33.020 --> 01:38.280
+Ich möchte auswählen, ich möchte das H1-Tag auswählen oder drücken Sie die Eingabetaste und sehen Sie sich das an.
+
+01:38.610 --> 01:40.470
+Ich bekomme das H1-Tag.
+
+01:40.500 --> 01:40.730
+OK.
+
+01:40.740 --> 01:42.260
+Was kann ich sonst noch tun?
+
+01:42.390 --> 01:51.520
+Ich kann document.getElementsbyClassName tun.
+
+01:51.750 --> 01:59.260
+Und hier kann ich sagen, innerhalb der Indexdatei habe ich die Klasse "zweite", was der zweite Absatz ist, der sagt
+
+01:59.290 --> 02:01.180
+keine Ausreden.
+
+02:01.180 --> 02:04.600
+Also kann ich "Sekunde" sagen. Ich schaue mir das an.
+
+02:04.730 --> 02:07.560
+Jetzt habe ich das "zweite" Element.
+
+02:07.570 --> 02:10.910
+Wann haben wir sonst noch? getElementById.
+
+02:11.020 --> 02:16.750
+Ich denke, Sie können raten, was das tun wird, document.getElementsById.
+
+02:16.840 --> 02:25.430
+Wieder werden wir Id auswählen, wir sehen, dass es ein erstes Jahr gibt, also können wir zuerst tun, und ich bekomme das
+
+02:25.430 --> 02:26.100
+Ich würde.
+
+02:27.300 --> 02:33.210
+Jetzt sehen Sie einen Unterschied hier, dass getElementById nicht den Plural hat.
+
+02:33.210 --> 02:36.530
+Stimmt. Weil Sie nur eine ID haben können.
+
+02:36.600 --> 02:38.910
+Es gibt das vollständige Element versus zurück
+
+02:38.950 --> 02:40.750
+gut sieht aus wie ein Array.
+
+02:41.190 --> 02:50.210
+Damit ich das oben Gesagte tatsächlich vollständig nutzen kann, muss ich "Sekunde" machen und dann auf die Null zugreifen
+
+02:50.260 --> 02:54.310
+Index des Arrays, in diesem Fall bekomme ich keine Ausreden.
+
+02:56.370 --> 02:57.150
+Gut.
+
+02:57.460 --> 03:00.940
+Also diese drei sind sehr, sehr nützlich.
+
+03:00.940 --> 03:06.680
+Aber es gibt etwas namens querySelector und querySelectorAll, die noch besser sind.
+
+03:07.000 --> 03:11.950
+Lassen Sie uns sie überprüfen. Mit document.querySelector
+
+03:12.200 --> 03:20.800
+Ich kann hier alles auswählen, was ich mit CCS gemacht habe. Zum Beispiel, wenn ich wählen wollte, lass uns tun
+
+03:20.810 --> 03:32.460
+In diesem Fall kann H1 oder ich H1 auswählen, wenn ich "Li" unsere Listenelemente auswählen wollte, bekomme ich viel
+
+03:32.520 --> 03:38.910
+aber es sieht so aus als ob ich nur das erste das Notebook bekomme. Was, wenn ich alle auswählen wollte? Und
+
+03:38.910 --> 03:44.170
+Dies liegt daran, dass der Abfrage-Selektor das erste gefundene Element auswählt.
+
+03:44.230 --> 03:51.490
+Wenn ich querySelectorAll auf der anderen Seite suche, wählt es alle aus.
+
+03:54.520 --> 03:58.360
+Und Sie sehen hier, dass wir alle sechs "Li" -Elemente bekommen.
+
+04:03.160 --> 04:06.770
+Nur um Ihnen zu zeigen, dass es mit allen CSS-Selektoren funktioniert.
+
+04:06.820 --> 04:13.140
+Wenn ich 'Li' und H1 mache, bekomme ich auch H1 und all 'Li'.
+
+04:13.210 --> 04:14.920
+Das ist sehr nützlich.
+
+04:14.920 --> 04:20.650
+Der einzige Vorbehalt, den Sie bereits kennen, ist, dass wir immer, wenn neue Funktionen eingeführt werden, einen Weg für alle haben
+
+04:20.650 --> 04:22.230
+die Browser, um es zu implementieren.
+
+04:22.360 --> 04:22.950
+Lass uns das überprüfen.
+
+04:22.950 --> 04:28.840
+Kann ich verwenden, um zu sehen, ob QuerySelector in gutem Zustand ist.
+
+04:28.840 --> 04:29.290
+Gut.
+
+04:29.290 --> 04:32.560
+Es sieht so aus, als ob alle Browser es implementiert haben, was gut ist.
+
+04:32.590 --> 04:34.650
+Lassen Sie uns querySelectorAll überprüfen.
+
+04:34.860 --> 04:37.660
+Alles klar, wir haben grünes Licht, alles ist grün.
+
+04:38.200 --> 04:38.880
+Das ist gut.
+
+04:39.070 --> 04:45.670
+Ich möchte mich an diese Praxis gewöhnen, um sicher zu stellen, dass alle Methoden oder Eigenschaften, die Sie verwenden, beide sind
+
+04:45.670 --> 04:56.280
+für HTML, CSS und Javascript funktioniert alles in den Browsern. Also empfehle ich, dass Sie diese verwenden
+
+04:56.280 --> 05:00.470
+zwei, um Ihre Auswahl zu treffen, weil es genau wie CSS ist.
+
+05:00.600 --> 05:06.120
+Sie sind stärker als die ersten drei. Aber Sie werden diesen dreien von Zeit zu Zeit begegnen
+
+05:06.120 --> 05:07.500
+mit den älteren Codebasen.
+
+05:08.800 --> 05:09.470
+OK.
+
+05:09.830 --> 05:10.550
+Was können wir sonst noch tun.
+
+05:10.540 --> 05:15.260
+Ich kann sehen, dass wir das Attribut Get und das Attribut Set haben. Lass es uns überprüfen.
+
+05:16.980 --> 05:26.850
+Wie der Name schon sagt, wenn ich document.getAttribute gut mache, sehen wir, dass das Get-Attribut nichts enthält
+
+05:26.970 --> 05:33.270
+ist da? Weil Sie ein Element auswählen müssen, um seine Attribute zu erhalten.
+
+05:33.270 --> 05:34.140
+Lassen Sie mich erklären.
+
+05:34.380 --> 05:42.960
+Wenn ich also die zufällige 23 Nummer aus dem ersten 'Li' bekommen möchte, hätte ich sie zuerst ausgewählt, wir können
+
+05:42.960 --> 05:49.210
+benutze sowas wie querySelector und da wähle ich den ersten aus.
+
+05:49.310 --> 05:50.930
+Ich kann 'Li' sagen
+
+05:54.190 --> 05:59.650
+und ich verstehe es. Aber denken Sie daran, wir müssen es irgendwo speichern, also könnte ich es entweder einer Variablen geben und
+
+05:59.650 --> 06:07.970
+Speichern Sie es irgendwo oder ich kann einfach direkt getAttribute sagen.
+
+06:08.090 --> 06:15.190
+Also werde ich sagen, ich werde das 'Li' auswählen und von dort werde ich jedes Attribut bekommen, das 'zufällig' genannt wird
+
+06:16.500 --> 06:18.650
+und dann bekomme ich 23.
+
+06:18.870 --> 06:25.470
+Also kann getAttribute alles sein. Sie können sich ein Bild-Tag mit der gewünschten Breite und Höhe vorstellen
+
+06:25.470 --> 06:30.970
+um die Breite und Höhe zu erfassen, um zu sehen, welche Werte sie haben, was man mit ihnen machen kann.
+
+06:30.990 --> 06:33.280
+Sie können das Attribut auch festlegen.
+
+06:33.510 --> 06:44.970
+Wenn ich also nach oben drücke und den letzten Befehl erhalte, kann ich jetzt getAttribute auf setAttribute umstellen, um jetzt zu sagen
+
+06:45.000 --> 06:50.560
+zufällig, das ist das Attribut, das wir ergreifen wollen und was wir ändern wollen.
+
+06:50.880 --> 06:59.170
+Wir können sagen, wir wollen es auf 1000 ändern. Schließen Sie die Klammer und ich bekomme Undefined.
+
+06:59.410 --> 07:09.780
+Aber jetzt, wenn ich den QuerySelector das erste 'Li' auswähle, sehe ich, dass zufällig jetzt zu 1000 geändert wurde.
+
+07:09.790 --> 07:12.970
+Jetzt denkst du vielleicht an dich selbst.
+
+07:13.060 --> 07:18.910
+Kann ich eine Klasse haben, um vielleicht einen neuen Stil zu haben und etwas zu ändern?
+
+07:18.910 --> 07:22.160
+CSS? Was! Das kannst du absolut.
+
+07:22.270 --> 07:30.300
+Das ist eines der coolen Dinge mit dem DOM ist, dass Sie alles in Ihrem Webbrowser ändern können.
+
+07:31.200 --> 07:32.960
+Lasst uns ein paar davon ausprobieren.
+
+07:33.000 --> 07:35.830
+Sie können getAttribute oder setAttribute verwenden
+
+07:35.850 --> 07:39.470
+Aber ich möchte Ihnen den üblicheren Weg zeigen, dies zu tun.
+
+07:39.510 --> 07:46.480
+Die erste Möglichkeit, Ihren Stil zu ändern, besteht darin, einfach das Stil-Tag zu verwenden.
+
+07:46.620 --> 07:58.020
+Also zum Beispiel, wenn ich querySelector sagen wollte, whoops möchte ich document.querySelector sagen und
+
+07:58.080 --> 08:07.590
+Wir wählen das H1-Tag, dieses H1 hat auch eine style -Eigenschaft und alle Elemente auf der Webseite haben a
+
+08:07.590 --> 08:08.380
+Stil Eigenschaft.
+
+08:10.120 --> 08:14.230
+Und hier ist eine ganze Reihe von Sachen, über die wir uns keine Sorgen machen müssen.
+
+08:14.440 --> 08:21.040
+Aber was wir tun können, ist Stil sagen und dann Punkt, wir wollen auf eine Eigenschaft auf den Stil zugreifen, die, na ja,
+
+08:21.620 --> 08:22.620
+unser CSS-Stil.
+
+08:22.630 --> 08:32.310
+So wissen wir, dass wir Hintergrund haben können. Also Hintergrund können wir Gleiches sagen, aber sollten wir sagen, wird Hintergrund sagen
+
+08:32.340 --> 08:37.240
+ist gelb, aber es muss eine Schnur sein, oder?
+
+08:37.280 --> 08:41.960
+So gelbe Zeichenfolge drücken Sie die Eingabetaste, sieh dir das an.
+
+08:42.000 --> 08:48.000
+Wir ändern nur unseren Hintergrund, und Sie können Stile wie diesen ändern und alle Ihre Stile ändern.
+
+08:48.000 --> 08:49.440
+Aber es gibt ein Problem hier.
+
+08:49.500 --> 08:52.610
+Das Problem ist die Trennung von Bedenken.
+
+08:52.740 --> 09:03.060
+Wir wollen im Idealfall keine Stile einbeziehen, die im Wesentlichen Stil und Hintergrund sind
+
+09:03.650 --> 09:04.660
+Gelb.
+
+09:04.890 --> 09:07.160
+Es ist genau dasselbe, was wir gemacht haben.
+
+09:07.410 --> 09:16.070
+Also wenn ich hier auffrische, werden Sie sehen, dass ich, obwohl ich nichts geändert habe, immer noch den gelben Hintergrund habe.
+
+09:16.210 --> 09:26.650
+Aber wenn wir uns erinnern, dass wir wollen, dass die Trennung von HTML sich auf den Text konzentriert, konzentriert sich CSS auf den Stil
+
+09:26.980 --> 09:29.920
+und Javascript auf den Aktionen.
+
+09:30.020 --> 09:36.000
+Also, was ist ein besserer Weg für uns, Stile zu ändern als Stil? {Property}.
+
+09:36.060 --> 09:38.250
+Wir haben ein paar Dinge, die wir benutzen können.
+
+09:38.400 --> 09:40.610
+Also fangen wir mit className und classList an.
+
+09:40.650 --> 09:43.900
+Und ich habe eigentlich einen ziemlich coolen Stil namens cooler Titel.
+
+09:44.010 --> 09:45.110
+Lasst uns das überprüfen.
+
+09:46.230 --> 09:50.750
+Ich möchte das entfernen. Aktualisierung.
+
+09:50.960 --> 09:55.990
+Lassen Sie uns das Dokument querySelector einfügen
+
+09:58.350 --> 10:01.780
+H1 in einer Variablen, damit wir das nicht weiter machen müssen.
+
+10:02.010 --> 10:06.060
+Also werde ich sagen, Variable H1 ist gleich
+
+10:06.110 --> 10:06.580
+Da gehst du.
+
+10:06.660 --> 10:13.440
+So, jetzt haben wir H1. Wir können H1 dot className sagen
+
+10:13.500 --> 10:18.610
+gleich und wir fügen coole Titel hinzu.
+
+10:18.830 --> 10:19.710
+Mal sehen was passiert.
+
+10:20.860 --> 10:21.530
+Whoa.
+
+10:21.800 --> 10:23.320
+Das ist ziemlich cool, richtig.
+
+10:23.420 --> 10:29.990
+Falls Sie sich fragen, wie ich das gemacht habe, werde ich einfach dieses CSS verwenden und die Art und Weise, wie ich es gefunden habe, habe ich gesucht
+
+10:29.990 --> 10:31.760
+bei diesem Codepen.
+
+10:31.790 --> 10:37.290
+Also, wenn Sie codepen.io suchen, können Sie eine Menge cooler Dinge finden, mit denen Leute gebaut haben
+
+10:37.630 --> 10:41.770
+CSS und Sie können sehen, dass dies von Rafael Castro getan wurde.
+
+10:41.900 --> 10:46.630
+Ich habe gerade sein cooles CSS für mein H1-Tag verwendet.
+
+10:46.790 --> 10:48.220
+Und da gehst du.
+
+10:48.240 --> 10:58.570
+Also habe ich meiner H1 eine neue Klasse hinzugefügt. Wenn ich mein H1 auswähle, sehen Sie, dass ich eine Klasse namens Titel habe.
+
+10:58.650 --> 11:00.810
+Sehr schön.
+
+11:00.850 --> 11:02.770
+Es gibt noch eine andere Sache, die wir tun können
+
+11:02.770 --> 11:04.240
+Klassenliste.
+
+11:04.660 --> 11:15.800
+Also sagen wir, dass ich eine Klasse zu 'Li' hinzufügen wollte, wird document.querySelector sagen
+
+11:18.640 --> 11:28.960
+werde 'Li' machen, welches den ersten auswählen wird und ich möchte sagen, dass wir uns hier ClassList anschauen wollen.
+
+11:29.060 --> 11:29.600
+Ich sehe das
+
+11:29.620 --> 11:33.240
+Nun, es gibt nichts, weil es keine Klassen gibt.
+
+11:33.560 --> 11:39.970
+Aber wenn ich hier eine Klasse hinzufüge und lass uns fett machen, rot
+
+11:40.460 --> 11:43.120
+und wir brauchen das Komma nicht.
+
+11:43.210 --> 11:45.530
+So, jetzt haben wir zwei Klassengegenstände.
+
+11:45.590 --> 11:50.640
+Wenn ich es speichere und wiederhole und auffrische
+
+11:53.590 --> 12:01.990
+Ich sehe, dass ich eine Liste von Klassen habe. Diese Klassenliste gibt uns ein paar Methoden, die wir verwenden können, wie z. B. Hinzufügen
+
+12:02.380 --> 12:04.090
+Entfernen und umschalten.
+
+12:04.210 --> 12:05.060
+Also lass uns das tun.
+
+12:05.230 --> 12:07.720
+Lass uns das 'Li' machen.
+
+12:07.730 --> 12:15.900
+Und ich werde classList.add sagen und wir werden einen coolen Titel hinzufügen.
+
+12:16.000 --> 12:19.100
+Sieh dir das an. Diese Art vermasselt unsere Liste.
+
+12:19.100 --> 12:22.520
+Also entfernen wir den coolen Titel und fügen einen anderen hinzu.
+
+12:22.580 --> 12:24.710
+Also ich werde classList sagen
+
+12:24.710 --> 12:25.480
+Löschen.
+
+12:25.700 --> 12:37.990
+Cooler Titel und stattdessen fügen wir eine weitere Klasse hinzu, die ich in meinem CSS habe, was "Fertig" heißt
+
+12:37.990 --> 12:43.290
+Gib mir eine Zeile durch den Text, so dass der Aufgabenbereich erledigt ist.
+
+12:43.630 --> 12:53.990
+Also, wenn ich fertig bin, schau dir das an, ich habe meine erste Aufgabe auf meiner Einkaufsliste erledigt.
+
+12:54.120 --> 12:57.880
+Aber was, wenn ich einen Fehler gemacht habe und ich es zurückschalten möchte.
+
+12:57.960 --> 13:08.020
+Anstatt zu entfernen, könnte ich einfach Toggle sagen, und wieder umschalten und umschalten und umschalten und umschalten. Du siehst
+
+13:08.020 --> 13:15.670
+Das ist sehr nützlich, wenn Sie etwas ein- und ausschalten möchten.
+
+13:15.700 --> 13:16.410
+Sehr cool.
+
+13:16.560 --> 13:18.050
+Was haben wir sonst noch?
+
+13:18.220 --> 13:26.430
+Was wir bisher gelernt haben, sollten wir querySelectors verwenden, um das Element zu greifen und die Stile zu ändern
+
+13:26.790 --> 13:29.200
+etwas wie classList verwenden.
+
+13:29.460 --> 13:33.250
+Stellen Sie sicher, dass classList in allen Browsern verfügbar ist.
+
+13:34.120 --> 13:34.660
+Lass uns das Prüfen.
+
+13:34.660 --> 13:36.340
+Klassenliste.
+
+13:38.760 --> 13:44.410
+Und es sieht so aus, als ob wir grün werden, aber es gibt ein paar wie IE 11 und das hat teilweise Unterstützung.
+
+13:44.790 --> 13:47.430
+Daher möchten wir vorsichtig mit der Verwendung von Klassenlisten umgehen.
+
+13:47.520 --> 13:51.630
+Daher müssen wir in einigen Bereichen möglicherweise Text verwenden.
+
+13:52.360 --> 13:55.640
+Ich habe noch ein paar mehr, die ich Ihnen gerne zeigen möchte.
+
+13:55.690 --> 14:00.230
+Einer ist innerHTML und ich habe hier gefährlich.
+
+14:00.310 --> 14:04.130
+Sie werden sehen, und dann einige Codebasen und deshalb möchte ich Ihnen diese Eigenschaft zeigen.
+
+14:04.510 --> 14:16.410
+Ich kann etwas in der Art von dot Selector H1 tun.
+
+14:16.480 --> 14:30.960
+Nun kann ich sagen, dass innerHTML equars diese starken Ausrufezeichen beobachtet und dann das starke Tag schließt.
+
+14:31.070 --> 14:34.110
+Wenn ich jetzt Enter drücke, schau dir das an.
+
+14:34.510 --> 14:42.380
+Ich habe gerade das innereHTML von H1 geändert, um starke Markierung zu haben. Lassen Sie uns überprüfen, wie H1 jetzt aussieht.
+
+14:43.220 --> 14:47.020
+H1 hat starke Tags mit Ausrufezeichen.
+
+14:47.420 --> 14:48.350
+Lass uns zurück gehen.
+
+14:48.380 --> 14:52.050
+Wir können auch auf etwas namens parentElement und children zugreifen.
+
+14:52.100 --> 14:53.420
+Lasst uns das überprüfen.
+
+14:54.230 --> 15:07.470
+Wenn ich Jello Dokument Punkt auswählen will QuerySelectorAll "Li" wählt Jello, die zweite ist
+
+15:08.930 --> 15:10.650
+im Array so, dass bedeutet eins.
+
+15:11.300 --> 15:12.480
+Und ich habe Jello.
+
+15:12.890 --> 15:25.260
+So jetzt kann ich dot parentElement sagen und bekomme die ungeordnete Liste und wenn ich das parentElement von mache
+
+15:25.740 --> 15:29.840
+Das Elternelement Ich bekomme den Körper.
+
+15:29.870 --> 15:31.490
+Also ich habe Wackelpudding.
+
+15:31.940 --> 15:38.400
+Ich bekomme den Elternteil, der der UL ist, und den Elternteil des Elternteils, der der Körper ist.
+
+15:38.420 --> 15:42.570
+Ich kann auch Kinder machen.
+
+15:42.980 --> 15:50.360
+Also, wenn ich das mache, was Elternteil ist, der zum Körper geht und dann Kinder bekomme ich alle Kinder von
+
+15:50.360 --> 15:51.710
+der Körper.
+
+15:51.920 --> 15:52.940
+Sehr cool.
+
+15:52.940 --> 15:59.550
+Der letzte Punkt, den ich Ihnen zeigen möchte, ist, dass es wirklich wichtig ist, Selektoren und Variablen zu cachen.
+
+15:59.630 --> 16:00.490
+Was bedeutet das?
+
+16:00.710 --> 16:04.480
+Jedes Mal, wenn wir so etwas machen, sagen wir, wir hätten eine Javascript-Datei.
+
+16:04.610 --> 16:10.370
+Und jedes Mal, wenn wir neue Dinge auswählen, wann immer wir sie benutzen wollen.
+
+16:11.530 --> 16:22.000
+Nun, das verbraucht Speicher, weil der Computer sich daran erinnern muss, dass der Browser sich daran erinnert
+
+16:22.000 --> 16:26.890
+möchte dies auswählen und dann wählen wir es erneut und dann wählen wir erneut und wir wählen aus
+
+16:26.890 --> 16:27.810
+das gleiche.
+
+16:27.810 --> 16:37.390
+Der Webbrowser führt also immer wieder Aktionen aus, wenn wir nur die Variable H1 gleich Dokument benötigen
+
+16:37.920 --> 16:40.380
+Punkt QuerySelector H1.
+
+16:40.690 --> 16:48.610
+So, jetzt, wann immer ich H1 benutzen muss, muss der Webbrowser nicht nach dem DOM suchen, H1 suchen und dann
+
+16:48.610 --> 16:49.830
+Speichern Sie es im Speicher.
+
+16:49.900 --> 16:57.010
+Wir haben H1 gelebt, bis wir die Seite aktualisieren, damit der Webbrowser funktioniert.
+
+16:57.070 --> 17:00.650
+Es hat uns bereits gesagt, wo H1 ist und jetzt können wir es verwenden.
+
+17:00.760 --> 17:02.360
+Und das nennt man Cache Selectors.
+
+17:02.380 --> 17:03.880
+Und es ist etwas, das wir behandeln werden.
+
+17:04.090 --> 17:10.480
+Und das letzte Video in diesem Abschnitt, in dem wir über einige Grundlagen des Entwicklers sprechen. Wir sehen uns im nächsten
+
+17:10.480 --> 17:11.830
+Video, Tschüss.
+O���1      ]\��]\��@��]\��   �    a,:https://c.udemycdn.com/10459280/de_DE/173fd6d5-7ed1-4c97-8484-f34559ac5b65.vtt?nva=20190821121555&response-content-disposition=attachment%3B+filename=%22dom-selectors_edit-de.vtt%22&token=050bea2c052ff55e2739b strongly-framed 1 security-info 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 request-method GET request-Origin https://www.udemy.com response-head HTTP/2.0 200 OK
+date: Wed, 21 Aug 2019 08:15:56 GMT
+content-type: binary/octet-stream
+content-length: 18950
+etag: "050f0ffa9857ff4b92d4189ab9f774b0"
+last-modified: Sun, 26 Aug 2018 21:15:56 GMT
+server: AmazonS3
+vary: Origin, Access-Control-Request-Headers, Access-Control-Request-Method
+access-control-allow-methods: GET
+access-control-allow-origin: https://www.udemy.com
+access-control-max-age: 3000
+x-amz-id-2: +lluPio5WcT5AXVIo3RVJEQu1EEGBgRFzcT4f0pqM2ZF1zA+7xc8GAmc7rLW3EMT6i77g9OKDwg=
+x-amz-meta-qqfilename: dom-selectors_edit-de.vtt
+x-amz-request-id: 6F312D21CDB75117
+access-control-allow-credentials: true
+age: 11954370
+accept-ranges: bytes
+X-Firefox-Spdy: h2
+ original-response-headers date: Wed, 21 Aug 2019 08:15:56 GMT
+content-type: binary/octet-stream
+content-length: 18950
+etag: "050f0ffa9857ff4b92d4189ab9f774b0"
+last-modified: Sun, 26 Aug 2018 21:15:56 GMT
+server: AmazonS3
+vary: Origin, Access-Control-Request-Headers, Access-Control-Request-Method
+access-control-allow-methods: GET
+access-control-allow-origin: https://www.udemy.com
+access-control-max-age: 3000
+x-amz-id-2: +lluPio5WcT5AXVIo3RVJEQu1EEGBgRFzcT4f0pqM2ZF1zA+7xc8GAmc7rLW3EMT6i77g9OKDwg=
+x-amz-meta-qqfilename: dom-selectors_edit-de.vtt
+x-amz-request-id: 6F312D21CDB75117
+access-control-allow-credentials: true
+age: 11954370
+accept-ranges: bytes
+X-Firefox-Spdy: h2
+ ctid 1 eTLD1Access 1;0;3847452355, net-response-time-onstart 370 net-response-time-onstop 433   J

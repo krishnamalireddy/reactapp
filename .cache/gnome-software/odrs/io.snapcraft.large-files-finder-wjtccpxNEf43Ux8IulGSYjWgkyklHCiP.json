@@ -1,0 +1,38 @@
+[
+    {
+        "app_id": "io.snapcraft.large-files-finder-wjtccpxNEf43Ux8IulGSYjWgkyklHCiP",
+        "date_created": 1556122197.0,
+        "description": "This is a shareware demo, and worthless on its own.",
+        "distro": "Ubuntu",
+        "karma_down": 0,
+        "karma_up": 3,
+        "locale": "en_US",
+        "rating": 20,
+        "reported": 0,
+        "review_id": 24770,
+        "score": 30,
+        "summary": "Just an advertisement",
+        "user_display": "NoxiousPluK",
+        "user_hash": "18c1c340ae6367fe09fb9ca93c6515027eaa4def",
+        "user_skey": "6b70fb3d30714af4f76a47d31522086ff2ef6cfa",
+        "version": "1.1.0"
+    },
+    {
+        "app_id": "io.snapcraft.large-files-finder-wjtccpxNEf43Ux8IulGSYjWgkyklHCiP",
+        "date_created": 1561146022.0,
+        "description": "Only scans the downloads folder, if you add more folders (/home or root) it'll just do the downloads folder. You have to pay apparently for it to actually do something useful",
+        "distro": "Zorin OS",
+        "karma_down": 0,
+        "karma_up": 0,
+        "locale": "en_US",
+        "rating": 20,
+        "reported": 0,
+        "review_id": 50451,
+        "score": 0,
+        "summary": "Only scans downloads folder",
+        "user_display": "sajo",
+        "user_hash": "c0c61f6f2c3f7c39e775ec6861c7cf0a33f6fafb",
+        "user_skey": "6b70fb3d30714af4f76a47d31522086ff2ef6cfa",
+        "version": "1.1.0"
+    }
+]

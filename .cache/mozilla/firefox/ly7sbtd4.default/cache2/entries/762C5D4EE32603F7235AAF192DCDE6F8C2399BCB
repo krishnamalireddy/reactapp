@@ -1,0 +1,244 @@
+#EXTM3U
+#EXT-X-ALLOW-CACHE:YES
+#EXT-X-VERSION:3
+#EXT-X-TARGETDURATION:7
+#EXTINF:6.066667,
+https://hls.udemycdn.com/1430746/13589710/2018-07-27_23-11-05-db5fa98d0cbbacafbdbcbf97abcba60f/hls/hls_480/aa00632b88daed1da9e24e02c6405c60a1c30.ts?nva=20190821113625&token=0fba998e86708f627e5d9
+#EXTINF:6,
+https://hls.udemycdn.com/1430746/13589710/2018-07-27_23-11-05-db5fa98d0cbbacafbdbcbf97abcba60f/hls/hls_480/aa00632b88daed1da9e24e02c6405c60a1c31.ts?nva=20190821113625&token=00ecd825e7ebf2efa0687
+#EXTINF:6,
+https://hls.udemycdn.com/1430746/13589710/2018-07-27_23-11-05-db5fa98d0cbbacafbdbcbf97abcba60f/hls/hls_480/aa00632b88daed1da9e24e02c6405c60a1c32.ts?nva=20190821113625&token=053d8caf621059e46c615
+#EXTINF:6,
+https://hls.udemycdn.com/1430746/13589710/2018-07-27_23-11-05-db5fa98d0cbbacafbdbcbf97abcba60f/hls/hls_480/aa00632b88daed1da9e24e02c6405c60a1c33.ts?nva=20190821113625&token=0fb4079d6ea2e1c648e87
+#EXTINF:6,
+https://hls.udemycdn.com/1430746/13589710/2018-07-27_23-11-05-db5fa98d0cbbacafbdbcbf97abcba60f/hls/hls_480/aa00632b88daed1da9e24e02c6405c60a1c34.ts?nva=20190821113625&token=02829c87c666c0f79dc2d
+#EXTINF:6,
+https://hls.udemycdn.com/1430746/13589710/2018-07-27_23-11-05-db5fa98d0cbbacafbdbcbf97abcba60f/hls/hls_480/aa00632b88daed1da9e24e02c6405c60a1c35.ts?nva=20190821113625&token=0ea6da4749141d3b22819
+#EXTINF:6,
+https://hls.udemycdn.com/1430746/13589710/2018-07-27_23-11-05-db5fa98d0cbbacafbdbcbf97abcba60f/hls/hls_480/aa00632b88daed1da9e24e02c6405c60a1c36.ts?nva=20190821113625&token=095279c618df396c34530
+#EXTINF:6,
+https://hls.udemycdn.com/1430746/13589710/2018-07-27_23-11-05-db5fa98d0cbbacafbdbcbf97abcba60f/hls/hls_480/aa00632b88daed1da9e24e02c6405c60a1c37.ts?nva=20190821113625&token=0704e086887f3552995b4
+#EXTINF:6,
+https://hls.udemycdn.com/1430746/13589710/2018-07-27_23-11-05-db5fa98d0cbbacafbdbcbf97abcba60f/hls/hls_480/aa00632b88daed1da9e24e02c6405c60a1c38.ts?nva=20190821113625&token=0329bb676fe09e0691df5
+#EXTINF:6,
+https://hls.udemycdn.com/1430746/13589710/2018-07-27_23-11-05-db5fa98d0cbbacafbdbcbf97abcba60f/hls/hls_480/aa00632b88daed1da9e24e02c6405c60a1c39.ts?nva=20190821113625&token=0e83642cd0418854ce8e2
+#EXTINF:6,
+https://hls.udemycdn.com/1430746/13589710/2018-07-27_23-11-05-db5fa98d0cbbacafbdbcbf97abcba60f/hls/hls_480/aa00632b88daed1da9e24e02c6405c60a1c310.ts?nva=20190821113625&token=0f08b3848810d41b4f94a
+#EXTINF:6,
+https://hls.udemycdn.com/1430746/13589710/2018-07-27_23-11-05-db5fa98d0cbbacafbdbcbf97abcba60f/hls/hls_480/aa00632b88daed1da9e24e02c6405c60a1c311.ts?nva=20190821113625&token=0b7ed65a4971637313781
+#EXTINF:6,
+https://hls.udemycdn.com/1430746/13589710/2018-07-27_23-11-05-db5fa98d0cbbacafbdbcbf97abcba60f/hls/hls_480/aa00632b88daed1da9e24e02c6405c60a1c312.ts?nva=20190821113625&token=02726cfb77040f0a00ca2
+#EXTINF:6,
+https://hls.udemycdn.com/1430746/13589710/2018-07-27_23-11-05-db5fa98d0cbbacafbdbcbf97abcba60f/hls/hls_480/aa00632b88daed1da9e24e02c6405c60a1c313.ts?nva=20190821113625&token=0a851e6fa80f305bfb444
+#EXTINF:6,
+https://hls.udemycdn.com/1430746/13589710/2018-07-27_23-11-05-db5fa98d0cbbacafbdbcbf97abcba60f/hls/hls_480/aa00632b88daed1da9e24e02c6405c60a1c314.ts?nva=20190821113625&token=0376bac25f701893dbd38
+#EXTINF:6,
+https://hls.udemycdn.com/1430746/13589710/2018-07-27_23-11-05-db5fa98d0cbbacafbdbcbf97abcba60f/hls/hls_480/aa00632b88daed1da9e24e02c6405c60a1c315.ts?nva=20190821113625&token=0a6e72c2c4786d79fb91d
+#EXTINF:6,
+https://hls.udemycdn.com/1430746/13589710/2018-07-27_23-11-05-db5fa98d0cbbacafbdbcbf97abcba60f/hls/hls_480/aa00632b88daed1da9e24e02c6405c60a1c316.ts?nva=20190821113625&token=0048bea4fdac6006403b5
+#EXTINF:6,
+https://hls.udemycdn.com/1430746/13589710/2018-07-27_23-11-05-db5fa98d0cbbacafbdbcbf97abcba60f/hls/hls_480/aa00632b88daed1da9e24e02c6405c60a1c317.ts?nva=20190821113625&token=0032c8a587744d15312cc
+#EXTINF:6,
+https://hls.udemycdn.com/1430746/13589710/2018-07-27_23-11-05-db5fa98d0cbbacafbdbcbf97abcba60f/hls/hls_480/aa00632b88daed1da9e24e02c6405c60a1c318.ts?nva=20190821113625&token=0ac9418c9f93a547bc094
+#EXTINF:6,
+https://hls.udemycdn.com/1430746/13589710/2018-07-27_23-11-05-db5fa98d0cbbacafbdbcbf97abcba60f/hls/hls_480/aa00632b88daed1da9e24e02c6405c60a1c319.ts?nva=20190821113625&token=0a0c839b01dabfc52e47f
+#EXTINF:6,
+https://hls.udemycdn.com/1430746/13589710/2018-07-27_23-11-05-db5fa98d0cbbacafbdbcbf97abcba60f/hls/hls_480/aa00632b88daed1da9e24e02c6405c60a1c320.ts?nva=20190821113625&token=09cc02791bc5b67732d70
+#EXTINF:6,
+https://hls.udemycdn.com/1430746/13589710/2018-07-27_23-11-05-db5fa98d0cbbacafbdbcbf97abcba60f/hls/hls_480/aa00632b88daed1da9e24e02c6405c60a1c321.ts?nva=20190821113625&token=0740176040b16248f57bb
+#EXTINF:6,
+https://hls.udemycdn.com/1430746/13589710/2018-07-27_23-11-05-db5fa98d0cbbacafbdbcbf97abcba60f/hls/hls_480/aa00632b88daed1da9e24e02c6405c60a1c322.ts?nva=20190821113625&token=00d62f8b4dea6b6695b28
+#EXTINF:6,
+https://hls.udemycdn.com/1430746/13589710/2018-07-27_23-11-05-db5fa98d0cbbacafbdbcbf97abcba60f/hls/hls_480/aa00632b88daed1da9e24e02c6405c60a1c323.ts?nva=20190821113625&token=085c70efda7e74481a44a
+#EXTINF:6,
+https://hls.udemycdn.com/1430746/13589710/2018-07-27_23-11-05-db5fa98d0cbbacafbdbcbf97abcba60f/hls/hls_480/aa00632b88daed1da9e24e02c6405c60a1c324.ts?nva=20190821113625&token=05de2c219253908a2ac87
+#EXTINF:6,
+https://hls.udemycdn.com/1430746/13589710/2018-07-27_23-11-05-db5fa98d0cbbacafbdbcbf97abcba60f/hls/hls_480/aa00632b88daed1da9e24e02c6405c60a1c325.ts?nva=20190821113625&token=0536038c27b6b3e1a4290
+#EXTINF:6,
+https://hls.udemycdn.com/1430746/13589710/2018-07-27_23-11-05-db5fa98d0cbbacafbdbcbf97abcba60f/hls/hls_480/aa00632b88daed1da9e24e02c6405c60a1c326.ts?nva=20190821113625&token=09a522a1e56b6a28bfadc
+#EXTINF:6,
+https://hls.udemycdn.com/1430746/13589710/2018-07-27_23-11-05-db5fa98d0cbbacafbdbcbf97abcba60f/hls/hls_480/aa00632b88daed1da9e24e02c6405c60a1c327.ts?nva=20190821113625&token=02bc17503b46f1ab02470
+#EXTINF:6,
+https://hls.udemycdn.com/1430746/13589710/2018-07-27_23-11-05-db5fa98d0cbbacafbdbcbf97abcba60f/hls/hls_480/aa00632b88daed1da9e24e02c6405c60a1c328.ts?nva=20190821113625&token=0a7d772627773d1f87b68
+#EXTINF:6,
+https://hls.udemycdn.com/1430746/13589710/2018-07-27_23-11-05-db5fa98d0cbbacafbdbcbf97abcba60f/hls/hls_480/aa00632b88daed1da9e24e02c6405c60a1c329.ts?nva=20190821113625&token=01cede1055b559db49b0d
+#EXTINF:6,
+https://hls.udemycdn.com/1430746/13589710/2018-07-27_23-11-05-db5fa98d0cbbacafbdbcbf97abcba60f/hls/hls_480/aa00632b88daed1da9e24e02c6405c60a1c330.ts?nva=20190821113625&token=00f626f09eff1cd0ed82c
+#EXTINF:6,
+https://hls.udemycdn.com/1430746/13589710/2018-07-27_23-11-05-db5fa98d0cbbacafbdbcbf97abcba60f/hls/hls_480/aa00632b88daed1da9e24e02c6405c60a1c331.ts?nva=20190821113625&token=0f3bcd6082a09069cc8af
+#EXTINF:6,
+https://hls.udemycdn.com/1430746/13589710/2018-07-27_23-11-05-db5fa98d0cbbacafbdbcbf97abcba60f/hls/hls_480/aa00632b88daed1da9e24e02c6405c60a1c332.ts?nva=20190821113625&token=0045217932f07b1be0bcd
+#EXTINF:6,
+https://hls.udemycdn.com/1430746/13589710/2018-07-27_23-11-05-db5fa98d0cbbacafbdbcbf97abcba60f/hls/hls_480/aa00632b88daed1da9e24e02c6405c60a1c333.ts?nva=20190821113625&token=0794e08b656aa4bbbd665
+#EXTINF:6,
+https://hls.udemycdn.com/1430746/13589710/2018-07-27_23-11-05-db5fa98d0cbbacafbdbcbf97abcba60f/hls/hls_480/aa00632b88daed1da9e24e02c6405c60a1c334.ts?nva=20190821113625&token=0c02d953452c7475b5d2c
+#EXTINF:6,
+https://hls.udemycdn.com/1430746/13589710/2018-07-27_23-11-05-db5fa98d0cbbacafbdbcbf97abcba60f/hls/hls_480/aa00632b88daed1da9e24e02c6405c60a1c335.ts?nva=20190821113625&token=0e3b11d37ab37f55314cb
+#EXTINF:6,
+https://hls.udemycdn.com/1430746/13589710/2018-07-27_23-11-05-db5fa98d0cbbacafbdbcbf97abcba60f/hls/hls_480/aa00632b88daed1da9e24e02c6405c60a1c336.ts?nva=20190821113625&token=03292dc2a611c0ea49a80
+#EXTINF:6,
+https://hls.udemycdn.com/1430746/13589710/2018-07-27_23-11-05-db5fa98d0cbbacafbdbcbf97abcba60f/hls/hls_480/aa00632b88daed1da9e24e02c6405c60a1c337.ts?nva=20190821113625&token=0696787d07da7c4ab9941
+#EXTINF:6,
+https://hls.udemycdn.com/1430746/13589710/2018-07-27_23-11-05-db5fa98d0cbbacafbdbcbf97abcba60f/hls/hls_480/aa00632b88daed1da9e24e02c6405c60a1c338.ts?nva=20190821113625&token=00bbb8ee6e6a6bda3b95f
+#EXTINF:6,
+https://hls.udemycdn.com/1430746/13589710/2018-07-27_23-11-05-db5fa98d0cbbacafbdbcbf97abcba60f/hls/hls_480/aa00632b88daed1da9e24e02c6405c60a1c339.ts?nva=20190821113625&token=0255177e021c77418a4f1
+#EXTINF:6,
+https://hls.udemycdn.com/1430746/13589710/2018-07-27_23-11-05-db5fa98d0cbbacafbdbcbf97abcba60f/hls/hls_480/aa00632b88daed1da9e24e02c6405c60a1c340.ts?nva=20190821113625&token=059083554ed559053f845
+#EXTINF:6,
+https://hls.udemycdn.com/1430746/13589710/2018-07-27_23-11-05-db5fa98d0cbbacafbdbcbf97abcba60f/hls/hls_480/aa00632b88daed1da9e24e02c6405c60a1c341.ts?nva=20190821113625&token=09fde912e14709a93cc07
+#EXTINF:6,
+https://hls.udemycdn.com/1430746/13589710/2018-07-27_23-11-05-db5fa98d0cbbacafbdbcbf97abcba60f/hls/hls_480/aa00632b88daed1da9e24e02c6405c60a1c342.ts?nva=20190821113625&token=0cc6d1e1ab7a7bef7017a
+#EXTINF:6,
+https://hls.udemycdn.com/1430746/13589710/2018-07-27_23-11-05-db5fa98d0cbbacafbdbcbf97abcba60f/hls/hls_480/aa00632b88daed1da9e24e02c6405c60a1c343.ts?nva=20190821113625&token=02a08fc96df91b461e36c
+#EXTINF:6,
+https://hls.udemycdn.com/1430746/13589710/2018-07-27_23-11-05-db5fa98d0cbbacafbdbcbf97abcba60f/hls/hls_480/aa00632b88daed1da9e24e02c6405c60a1c344.ts?nva=20190821113625&token=0f3c919dc47d98c3e84ca
+#EXTINF:6,
+https://hls.udemycdn.com/1430746/13589710/2018-07-27_23-11-05-db5fa98d0cbbacafbdbcbf97abcba60f/hls/hls_480/aa00632b88daed1da9e24e02c6405c60a1c345.ts?nva=20190821113625&token=02a7e81a16257088c505f
+#EXTINF:6,
+https://hls.udemycdn.com/1430746/13589710/2018-07-27_23-11-05-db5fa98d0cbbacafbdbcbf97abcba60f/hls/hls_480/aa00632b88daed1da9e24e02c6405c60a1c346.ts?nva=20190821113625&token=008d6d750d451a8c0f528
+#EXTINF:6,
+https://hls.udemycdn.com/1430746/13589710/2018-07-27_23-11-05-db5fa98d0cbbacafbdbcbf97abcba60f/hls/hls_480/aa00632b88daed1da9e24e02c6405c60a1c347.ts?nva=20190821113625&token=0c39df06dac1b37b7e8fb
+#EXTINF:6,
+https://hls.udemycdn.com/1430746/13589710/2018-07-27_23-11-05-db5fa98d0cbbacafbdbcbf97abcba60f/hls/hls_480/aa00632b88daed1da9e24e02c6405c60a1c348.ts?nva=20190821113625&token=09f571b6cd08b5edd001d
+#EXTINF:6,
+https://hls.udemycdn.com/1430746/13589710/2018-07-27_23-11-05-db5fa98d0cbbacafbdbcbf97abcba60f/hls/hls_480/aa00632b88daed1da9e24e02c6405c60a1c349.ts?nva=20190821113625&token=036fcffb29562d53ccee4
+#EXTINF:6,
+https://hls.udemycdn.com/1430746/13589710/2018-07-27_23-11-05-db5fa98d0cbbacafbdbcbf97abcba60f/hls/hls_480/aa00632b88daed1da9e24e02c6405c60a1c350.ts?nva=20190821113625&token=0374735316d36dd33cdd9
+#EXTINF:6,
+https://hls.udemycdn.com/1430746/13589710/2018-07-27_23-11-05-db5fa98d0cbbacafbdbcbf97abcba60f/hls/hls_480/aa00632b88daed1da9e24e02c6405c60a1c351.ts?nva=20190821113625&token=0eb4512fa2cf44c51d4e3
+#EXTINF:6,
+https://hls.udemycdn.com/1430746/13589710/2018-07-27_23-11-05-db5fa98d0cbbacafbdbcbf97abcba60f/hls/hls_480/aa00632b88daed1da9e24e02c6405c60a1c352.ts?nva=20190821113625&token=0e11ef8b8d61c0caf59af
+#EXTINF:6,
+https://hls.udemycdn.com/1430746/13589710/2018-07-27_23-11-05-db5fa98d0cbbacafbdbcbf97abcba60f/hls/hls_480/aa00632b88daed1da9e24e02c6405c60a1c353.ts?nva=20190821113625&token=02f11d8e5849419e238f5
+#EXTINF:6,
+https://hls.udemycdn.com/1430746/13589710/2018-07-27_23-11-05-db5fa98d0cbbacafbdbcbf97abcba60f/hls/hls_480/aa00632b88daed1da9e24e02c6405c60a1c354.ts?nva=20190821113625&token=0d7a6cff4a34e4f81c1f7
+#EXTINF:6,
+https://hls.udemycdn.com/1430746/13589710/2018-07-27_23-11-05-db5fa98d0cbbacafbdbcbf97abcba60f/hls/hls_480/aa00632b88daed1da9e24e02c6405c60a1c355.ts?nva=20190821113625&token=0f9e968759701f5ac6f33
+#EXTINF:6,
+https://hls.udemycdn.com/1430746/13589710/2018-07-27_23-11-05-db5fa98d0cbbacafbdbcbf97abcba60f/hls/hls_480/aa00632b88daed1da9e24e02c6405c60a1c356.ts?nva=20190821113625&token=03a0bb0e95893e7f454de
+#EXTINF:6,
+https://hls.udemycdn.com/1430746/13589710/2018-07-27_23-11-05-db5fa98d0cbbacafbdbcbf97abcba60f/hls/hls_480/aa00632b88daed1da9e24e02c6405c60a1c357.ts?nva=20190821113625&token=0036b9617a974ac15ccae
+#EXTINF:6,
+https://hls.udemycdn.com/1430746/13589710/2018-07-27_23-11-05-db5fa98d0cbbacafbdbcbf97abcba60f/hls/hls_480/aa00632b88daed1da9e24e02c6405c60a1c358.ts?nva=20190821113625&token=0cd65f5f93cf96876045f
+#EXTINF:6,
+https://hls.udemycdn.com/1430746/13589710/2018-07-27_23-11-05-db5fa98d0cbbacafbdbcbf97abcba60f/hls/hls_480/aa00632b88daed1da9e24e02c6405c60a1c359.ts?nva=20190821113625&token=03717b0a731c5d06d8c3e
+#EXTINF:6,
+https://hls.udemycdn.com/1430746/13589710/2018-07-27_23-11-05-db5fa98d0cbbacafbdbcbf97abcba60f/hls/hls_480/aa00632b88daed1da9e24e02c6405c60a1c360.ts?nva=20190821113625&token=002f38fa8350492e3f079
+#EXTINF:6,
+https://hls.udemycdn.com/1430746/13589710/2018-07-27_23-11-05-db5fa98d0cbbacafbdbcbf97abcba60f/hls/hls_480/aa00632b88daed1da9e24e02c6405c60a1c361.ts?nva=20190821113625&token=0c97a453e293b2a5ed240
+#EXTINF:6,
+https://hls.udemycdn.com/1430746/13589710/2018-07-27_23-11-05-db5fa98d0cbbacafbdbcbf97abcba60f/hls/hls_480/aa00632b88daed1da9e24e02c6405c60a1c362.ts?nva=20190821113625&token=032012eeefa1b2c065370
+#EXTINF:6,
+https://hls.udemycdn.com/1430746/13589710/2018-07-27_23-11-05-db5fa98d0cbbacafbdbcbf97abcba60f/hls/hls_480/aa00632b88daed1da9e24e02c6405c60a1c363.ts?nva=20190821113625&token=08ef213f6e65ad750d30d
+#EXTINF:6,
+https://hls.udemycdn.com/1430746/13589710/2018-07-27_23-11-05-db5fa98d0cbbacafbdbcbf97abcba60f/hls/hls_480/aa00632b88daed1da9e24e02c6405c60a1c364.ts?nva=20190821113625&token=03d885fc0f52df850da56
+#EXTINF:6,
+https://hls.udemycdn.com/1430746/13589710/2018-07-27_23-11-05-db5fa98d0cbbacafbdbcbf97abcba60f/hls/hls_480/aa00632b88daed1da9e24e02c6405c60a1c365.ts?nva=20190821113625&token=044cb375ec8073dd810d4
+#EXTINF:6,
+https://hls.udemycdn.com/1430746/13589710/2018-07-27_23-11-05-db5fa98d0cbbacafbdbcbf97abcba60f/hls/hls_480/aa00632b88daed1da9e24e02c6405c60a1c366.ts?nva=20190821113625&token=081fdd3ce7a1810684cdc
+#EXTINF:6,
+https://hls.udemycdn.com/1430746/13589710/2018-07-27_23-11-05-db5fa98d0cbbacafbdbcbf97abcba60f/hls/hls_480/aa00632b88daed1da9e24e02c6405c60a1c367.ts?nva=20190821113625&token=04196aeeba0f3a6a8a23d
+#EXTINF:6,
+https://hls.udemycdn.com/1430746/13589710/2018-07-27_23-11-05-db5fa98d0cbbacafbdbcbf97abcba60f/hls/hls_480/aa00632b88daed1da9e24e02c6405c60a1c368.ts?nva=20190821113625&token=0e3a743e86eee502f286b
+#EXTINF:6,
+https://hls.udemycdn.com/1430746/13589710/2018-07-27_23-11-05-db5fa98d0cbbacafbdbcbf97abcba60f/hls/hls_480/aa00632b88daed1da9e24e02c6405c60a1c369.ts?nva=20190821113625&token=0e052e94ca9d566a09038
+#EXTINF:6,
+https://hls.udemycdn.com/1430746/13589710/2018-07-27_23-11-05-db5fa98d0cbbacafbdbcbf97abcba60f/hls/hls_480/aa00632b88daed1da9e24e02c6405c60a1c370.ts?nva=20190821113625&token=0c23a3e1023610921ba5e
+#EXTINF:6,
+https://hls.udemycdn.com/1430746/13589710/2018-07-27_23-11-05-db5fa98d0cbbacafbdbcbf97abcba60f/hls/hls_480/aa00632b88daed1da9e24e02c6405c60a1c371.ts?nva=20190821113625&token=0bf672c8b1fe158b1ad51
+#EXTINF:6,
+https://hls.udemycdn.com/1430746/13589710/2018-07-27_23-11-05-db5fa98d0cbbacafbdbcbf97abcba60f/hls/hls_480/aa00632b88daed1da9e24e02c6405c60a1c372.ts?nva=20190821113625&token=00b1e5722677f5ee7c126
+#EXTINF:6,
+https://hls.udemycdn.com/1430746/13589710/2018-07-27_23-11-05-db5fa98d0cbbacafbdbcbf97abcba60f/hls/hls_480/aa00632b88daed1da9e24e02c6405c60a1c373.ts?nva=20190821113625&token=0e73ec5b81cf6af8427fe
+#EXTINF:6,
+https://hls.udemycdn.com/1430746/13589710/2018-07-27_23-11-05-db5fa98d0cbbacafbdbcbf97abcba60f/hls/hls_480/aa00632b88daed1da9e24e02c6405c60a1c374.ts?nva=20190821113625&token=02a51b189ba610ae95a21
+#EXTINF:6,
+https://hls.udemycdn.com/1430746/13589710/2018-07-27_23-11-05-db5fa98d0cbbacafbdbcbf97abcba60f/hls/hls_480/aa00632b88daed1da9e24e02c6405c60a1c375.ts?nva=20190821113625&token=04a74f0cf325f9e6a8721
+#EXTINF:6,
+https://hls.udemycdn.com/1430746/13589710/2018-07-27_23-11-05-db5fa98d0cbbacafbdbcbf97abcba60f/hls/hls_480/aa00632b88daed1da9e24e02c6405c60a1c376.ts?nva=20190821113625&token=069f0da74144b0c972d2f
+#EXTINF:6,
+https://hls.udemycdn.com/1430746/13589710/2018-07-27_23-11-05-db5fa98d0cbbacafbdbcbf97abcba60f/hls/hls_480/aa00632b88daed1da9e24e02c6405c60a1c377.ts?nva=20190821113625&token=0d7f5d558acd162a849b5
+#EXTINF:6,
+https://hls.udemycdn.com/1430746/13589710/2018-07-27_23-11-05-db5fa98d0cbbacafbdbcbf97abcba60f/hls/hls_480/aa00632b88daed1da9e24e02c6405c60a1c378.ts?nva=20190821113625&token=00082438ac9082b6ae27c
+#EXTINF:6,
+https://hls.udemycdn.com/1430746/13589710/2018-07-27_23-11-05-db5fa98d0cbbacafbdbcbf97abcba60f/hls/hls_480/aa00632b88daed1da9e24e02c6405c60a1c379.ts?nva=20190821113625&token=0b75953a5f3f4e884602c
+#EXTINF:6,
+https://hls.udemycdn.com/1430746/13589710/2018-07-27_23-11-05-db5fa98d0cbbacafbdbcbf97abcba60f/hls/hls_480/aa00632b88daed1da9e24e02c6405c60a1c380.ts?nva=20190821113625&token=0ddfd7cbf1ff5e9c8f4c7
+#EXTINF:6,
+https://hls.udemycdn.com/1430746/13589710/2018-07-27_23-11-05-db5fa98d0cbbacafbdbcbf97abcba60f/hls/hls_480/aa00632b88daed1da9e24e02c6405c60a1c381.ts?nva=20190821113625&token=0f2ab4491515dcc6dc439
+#EXTINF:6,
+https://hls.udemycdn.com/1430746/13589710/2018-07-27_23-11-05-db5fa98d0cbbacafbdbcbf97abcba60f/hls/hls_480/aa00632b88daed1da9e24e02c6405c60a1c382.ts?nva=20190821113625&token=01b2dc843492596e784df
+#EXTINF:6,
+https://hls.udemycdn.com/1430746/13589710/2018-07-27_23-11-05-db5fa98d0cbbacafbdbcbf97abcba60f/hls/hls_480/aa00632b88daed1da9e24e02c6405c60a1c383.ts?nva=20190821113625&token=084cde0f9254a8975f222
+#EXTINF:6,
+https://hls.udemycdn.com/1430746/13589710/2018-07-27_23-11-05-db5fa98d0cbbacafbdbcbf97abcba60f/hls/hls_480/aa00632b88daed1da9e24e02c6405c60a1c384.ts?nva=20190821113625&token=0e0c688686eb970edc91c
+#EXTINF:6,
+https://hls.udemycdn.com/1430746/13589710/2018-07-27_23-11-05-db5fa98d0cbbacafbdbcbf97abcba60f/hls/hls_480/aa00632b88daed1da9e24e02c6405c60a1c385.ts?nva=20190821113625&token=0991d7cfcf0d443a6ebc2
+#EXTINF:6,
+https://hls.udemycdn.com/1430746/13589710/2018-07-27_23-11-05-db5fa98d0cbbacafbdbcbf97abcba60f/hls/hls_480/aa00632b88daed1da9e24e02c6405c60a1c386.ts?nva=20190821113625&token=090c50b5ad7ffc4db668e
+#EXTINF:0.733333,
+https://hls.udemycdn.com/1430746/13589710/2018-07-27_23-11-05-db5fa98d0cbbacafbdbcbf97abcba60f/hls/hls_480/aa00632b88daed1da9e24e02c6405c60a1c387.ts?nva=20190821113625&token=0e237f3ef08fc7575383f
+#EXT-X-ENDLISTØF(‚ô      ]\íq]\ír@¶ÜJ]^>ñ   ¨    :https://www.udemy.com/assets/13589710/files/1430746/13589710/2018-07-27_23-11-05-db5fa98d0cbbacafbdbcbf97abcba60f/hls/hls_480/aa00632b88daed1da9e24e02c6405c60a1c3.m3u8 strongly-framed 1 security-info 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 request-method GET request-Accept-Encoding gzip, deflate, br response-head HTTP/2.0 200 OK
+date: Wed, 21 Aug 2019 07:06:26 GMT
+content-type: application/x-mpegurl
+content-length: 18306
+cache-control: must-revalidate, max-age=86400, private
+cf-ray: 509ac3a57b3ddca5-MAA
+access-control-allow-credentials: true
+access-control-allow-headers: Accept,Authorization,Cache-Control,Content-Type,DNT,If-Modified-Since,Keep-Alive,Origin,User-Agent,X-Requested-With
+access-control-allow-methods: GET, POST, PUT, DELETE, OPTIONS
+access-control-expose-headers: Authorization
+allow: GET, HEAD, OPTIONS
+expect-ct: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+fastly-client-ip: 122.171.61.171
+strict-transport-security: max-age=31536000; includeSubDomains
+x-content-type-options: nosniff
+x-frame-options: SAMEORIGIN
+x-permitted-cross-domain-policies: master-only
+x-xss-protection: 1; mode=block
+vary: Accept-Encoding
+server: cloudflare
+X-Firefox-Spdy: h2
+ original-response-headers date: Wed, 21 Aug 2019 07:06:26 GMT
+content-type: application/x-mpegurl
+content-length: 18306
+cache-control: must-revalidate, max-age=86400, private
+cf-ray: 509ac3a57b3ddca5-MAA
+access-control-allow-credentials: true
+access-control-allow-headers: Accept,Authorization,Cache-Control,Content-Type,DNT,If-Modified-Since,Keep-Alive,Origin,User-Agent,X-Requested-With
+access-control-allow-methods: GET, POST, PUT, DELETE, OPTIONS
+access-control-expose-headers: Authorization
+allow: GET, HEAD, OPTIONS
+expect-ct: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+fastly-client-ip: 122.171.61.171
+set-cookie: ud_rule_vars=eJyFy70KwjAUQOFXKVm1cvPTpMnsG4hboKRJKsFCMLk6KH13C3bo5no434egK7eIMQyvVBPmYiRnY6_UFJTwQshxlIJTL7sp-DCBosbnfE-RmIZ8LJlSqfizQ3AY7dotYUB1C33LaAPKgDBcnFhHBe8PAAbAkuN6zW6lJT6esf7DXGvV6T32ruBQ03tD-4oZ3bzl5no5W7KQ5QsEeEMy:1i0KhN:0GekWd25awFUfhxHPqg0-VPY-uQ; expires=Fri, 20-Aug-2021 07:06:25 GMT; Max-Age=63072000; Path=/
+set-cookie: ud_cache_version=1; expires=Thu, 22-Aug-2019 07:06:25 GMT; Max-Age=86400; Path=/
+set-cookie: evi=SlFJMxkOHG4LCAlzXFZDbgsICTdMWEdgEwVKY1RXQ3oFDlZtTBECbgsICXNcVkVuCwgJN0xYRGATBUpjVFdDeAkOB2NcUEF4E0lQYxhAT30dUV0gTFhAegRLVm1MUEd6A1EROkwUV3YAXwk3D0BPeQZCGTxCQEd9BEMJexVAA24LQgdjGANXdgRHGXcTTld+A0cTY1QZVzoTSRpxQkADLRNJHndZUghgE0EZcl5ATzcTBQl7X05XOlBREXRYUEcxTF8JLQcKBW4LCAlzXFFHbgsICTdMWERgEwVKY1RXQ38BDlY8; expires=Fri, 20-Sep-2019 07:06:25 GMT; Max-Age=2592000; Path=/
+set-cookie: eva=""; expires=Thu, 01-Jan-1970 00:00:00 GMT; Max-Age=0; Path=/
+set-cookie: ud_cache_brand=::IN:en_US; expires=Thu, 22-Aug-2019 07:06:25 GMT; Max-Age=86400; Path=/
+set-cookie: ud_cache_price_country=IN; expires=Thu, 22-Aug-2019 07:06:25 GMT; Max-Age=86400; Path=/
+set-cookie: ud_cache_release=76a1a6bc175ef612760fce6798aa304a02d57698; expires=Thu, 22-Aug-2019 07:06:25 GMT; Max-Age=86400; Path=/
+set-cookie: __udmy_2_v57r=632b877fd74c446bb6431c65fdcdf071; Domain=.udemy.com; expires=Thu, 20-Aug-2020 07:06:25 GMT; Max-Age=31536000; Path=/; Secure
+set-cookie: ud_cache_language=en; expires=Thu, 22-Aug-2019 07:06:25 GMT; Max-Age=86400; Path=/
+set-cookie: ud_cache_campaign_code=""; expires=Thu, 22-Aug-2019 07:06:25 GMT; Max-Age=86400; Path=/
+set-cookie: inaff=""; expires=Thu, 01-Jan-1970 00:00:00 GMT; Max-Age=0; Path=/
+set-cookie: ud_cache_logged_in=1; expires=Thu, 22-Aug-2019 07:06:25 GMT; Max-Age=86400; Path=/
+set-cookie: exaff=""; expires=Thu, 01-Jan-1970 00:00:00 GMT; Max-Age=0; Path=/
+set-cookie: udmy_branded_partner=""; expires=Thu, 01-Jan-1970 00:00:00 GMT; Max-Age=0; Path=/
+set-cookie: checkout_feedback_message_type=""; expires=Thu, 01-Jan-1970 00:00:00 GMT; Max-Age=0; Path=/
+set-cookie: ud_cache_device=None; expires=Thu, 22-Aug-2019 07:06:25 GMT; Max-Age=86400; Path=/
+set-cookie: checkout_feedback_message=""; expires=Thu, 01-Jan-1970 00:00:00 GMT; Max-Age=0; Path=/
+set-cookie: ud_cache_user=42623856; expires=Thu, 22-Aug-2019 07:06:25 GMT; Max-Age=86400; Path=/
+set-cookie: __udmy_evid=""; expires=Thu, 01-Jan-1970 00:00:00 GMT; Max-Age=0; Path=/
+set-cookie: ud_cache_marketplace_country=IN; expires=Thu, 22-Aug-2019 07:06:25 GMT; Max-Age=86400; Path=/
+set-cookie: seen=1;Path=/;Max-Age=1800
+set-cookie: _pxhd=8305e3ec9bfc36fd30e8a2826bdf54ad1eb9a05418b255b7701c1b619e7c1fee:ee0ba7f1-c3e1-11e9-ac5f-4b47ccaa779c; path=/;
+strict-transport-security: max-age=31536000; includeSubDomains
+x-content-type-options: nosniff
+x-frame-options: SAMEORIGIN
+x-permitted-cross-domain-policies: master-only
+x-xss-protection: 1; mode=block
+vary: Accept-Encoding
+server: cloudflare
+X-Firefox-Spdy: h2
+ ctid 1 eTLD1Access 1;0;3847452355, net-response-time-onstart 878 net-response-time-onstop 885   G‚

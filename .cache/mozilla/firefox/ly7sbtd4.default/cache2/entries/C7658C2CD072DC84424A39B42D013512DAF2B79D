@@ -1,0 +1,913 @@
+WEBVTT
+
+00:01.490 --> 00:02.700
+Bine ai revenit.
+
+00:02.840 --> 00:05.050
+Aceasta este partea care devine foarte interesantă.
+
+00:05.360 --> 00:11.230
+Puteți utiliza JavaScript pentru a asculta evenimente și pe baza a ceea ce face utilizatorul.
+
+00:11.240 --> 00:19.900
+Acum, ce vreau să spun prin evenimente? Evenimentele sunt cum ar fi clicuri, mouse-uri care intră sau se deplasează peste ceva
+
+00:20.470 --> 00:24.170
+sau utilizatorul încearcă ceva într-o bară de căutare.
+
+00:25.560 --> 00:31.310
+Deci, putem asculta aceste evenimente și reacționăm la acestea folosind JavaScript.
+
+00:31.320 --> 00:36.100
+Lasă-mă să-ți arăt cum. Avem toate listele de cumpărături din videoclipul anterior.
+
+00:36.510 --> 00:39.310
+Și dacă adaug un buton aici.
+
+00:42.060 --> 00:47.530
+Și vom spune doar "Faceți clic pe mine", salvați și actualizați.
+
+00:47.590 --> 00:50.800
+Avem butonul Click Me.
+
+00:50.830 --> 00:57.340
+Am creat, de asemenea, un fișier script JS aici în același director ca indexul HTML și noi, în mod evident
+
+00:57.340 --> 00:58.130
+doriți să o adăugați.
+
+00:58.180 --> 01:08.070
+Așa că o vom face chiar în partea de jos, după cum am menționat în videoclipurile anterioare și îl putem include prin referință
+
+01:08.070 --> 01:16.070
+prin sursă și o vom numi Script crezut doar pentru a face referire la numele de pe scenariu.
+
+01:16.110 --> 01:19.420
+Să salvăm acum învățarea a ceea ce am învățat.
+
+01:19.430 --> 01:22.460
+Putem selecta acest buton rapid.
+
+01:22.460 --> 01:25.830
+Să încercăm acest lucru dacă dorim să selectăm butonul.
+
+01:25.850 --> 01:38.600
+Pot sa spun documentul punct get element dupa numele tagului si vom spune butonul astfel incat sa selecteze butonul pentru noi.
+
+01:38.620 --> 01:43.580
+OK, cum putem asculta faptul că un utilizator poate face clic pe acest buton.
+
+01:45.900 --> 01:51.770
+Ceea ce avem ceva numit evenimente și care sunt acestea și sunt toate legate.
+
+01:51.780 --> 01:59.550
+Referința aici este că există o grămadă de evenimente pe care un browser Web le permite să le ascultăm.
+
+01:59.550 --> 02:06.360
+Deci, dacă priviți aici, avem evenimente cu mouse-ul ca mouse-ul mutat mouse-ul peste un clic dublu clic.
+
+02:06.360 --> 02:10.400
+Avem presa cheie și o grămadă de alte evenimente.
+
+02:10.740 --> 02:16.710
+Dar cele mai obișnuite și singurul lucru pe care îl veți vedea 90 la sută din timp sunt evenimentele mouse-ului și tastatura
+
+02:16.710 --> 02:17.750
+evenimente.
+
+02:17.790 --> 02:23.450
+Deci, dacă privim aici, avem un clic, astfel încât să putem asculta pentru clic.
+
+02:23.610 --> 02:24.500
+Cum putem face asta?
+
+02:25.530 --> 02:36.360
+Ei bine, în scenariul meu Paul o să spun un document sau să-i spunem că butonul este egal cu documentul punct alimente
+
+02:36.600 --> 02:44.240
+de către Diagne și va selecta butonul.
+
+02:44.440 --> 02:54.690
+Acum, că avem referința la buton, pot spune acum că butonul Daut avea ascultătorul evenimentului și asta
+
+02:54.690 --> 03:01.380
+este o metodă pe care o putem folosi și acceptă doi parametri.
+
+03:01.380 --> 03:03.910
+Primul este evenimentul.
+
+03:03.980 --> 03:12.040
+În cazul nostru, ascultăm evenimentul clic, iar al doilea parametru este funcția sau ce vrem
+
+03:12.040 --> 03:14.440
+de a face pe baza clicului.
+
+03:14.500 --> 03:16.270
+Deci, în cazul nostru putem spune doar
+
+03:19.030 --> 03:24.700
+consolă punct jurnal faceți clic pe.
+
+03:24.790 --> 03:32.890
+Deci, spunem că am avut un eveniment ascultător al acestui buton pe care l-am selectat ori de câte ori utilizatorul dă clic pe mine
+
+03:32.890 --> 03:39.370
+doriți să executați această funcție și această funcție este de a consoliza clic pe jurnal.
+
+03:39.460 --> 03:40.560
+Să vedem dacă funcționează.
+
+03:40.720 --> 03:41.600
+Și reîmprospătați.
+
+03:41.620 --> 03:49.770
+Și vedem că avem un buton de adăugare a ascultătorilor de evenimente nu este o funcție și asta pentru că amintește-te Get
+
+03:49.830 --> 03:55.830
+elementele după numele etichetelor returnează o serie de butoane.
+
+03:55.830 --> 04:07.870
+Deci, dacă copiem și lipim acest lucru, vedem că pentru a accesa butonul trebuie să mergem 0 pentru a accesa
+
+04:07.870 --> 04:09.060
+primul element din matrice.
+
+04:09.060 --> 04:12.670
+Deci, este o greșeală foarte comună pe care o fac oamenii.
+
+04:12.670 --> 04:19.130
+Deci, asigurați-vă că dacă obțineți această eroare este probabil pentru că încercați să utilizați o metodă pe un
+
+04:19.130 --> 04:24.300
+array și trebuie să utilizați acea metodă pe elementul actual OK.
+
+04:24.430 --> 04:27.550
+Lasă-mă să închid asta și să rezolv asta pentru a spune
+
+04:30.830 --> 04:39.170
+primul perfect născut am de gând să salvez acest pic mai mic pentru a putea vedea și reîmprospăta și eu
+
+04:39.170 --> 04:46.820
+poate deschide consola și vedea ce se întâmplă când fac clic pe faceți clic pe faceți clic pe faceți clic pe OK.
+
+04:46.880 --> 04:47.620
+Așa că funcționează.
+
+04:47.620 --> 05:00.410
+Ascultam evenimentul cu click foarte foarte cool, pot asculta si ceva de genul meu
+
+05:00.800 --> 05:04.180
+alte urechi de aici și reîmprospătarea.
+
+05:04.280 --> 05:06.680
+Puteți vedea aici că imediat ce voi intra cel mai mult
+
+05:09.590 --> 05:10.960
+înregistrează evenimentul.
+
+05:11.210 --> 05:22.290
+Puteți, de asemenea, să faceți reîmprospătarea mouse-ului și de fiecare dată când părăsesc acest eveniment.
+
+05:22.460 --> 05:23.270
+Foarte tare.
+
+05:23.450 --> 05:26.500
+Deci, o tona dintre ele sunt legate de asta.
+
+05:26.510 --> 05:28.000
+Deci poți să-l vezi singur.
+
+05:28.010 --> 05:33.280
+Dar, așa cum am spus evenimentele tastaturii și evenimentele mouse-ului este ceea ce ați dori să vă uitați.
+
+05:33.560 --> 05:38.990
+Așadar, dacă privim la această listă, cred că o putem îmbunătăți.
+
+05:39.020 --> 05:47.480
+Cred că ar trebui să avem o intrare și un buton în care să introducem ceva și să adăugăm la cumpărături
+
+05:47.480 --> 05:49.410
+listă.
+
+05:49.510 --> 05:51.000
+Așa că o să încerc să fac asta.
+
+05:51.360 --> 05:56.380
+Și voi șterge acest cod și vreau să salvez și să reîmprospătesc.
+
+05:56.920 --> 06:04.390
+Și vom schimba și câteva lucruri aici, în loc să dați clic pe butonul pe care dorim să-l spunem lui Panter
+
+06:05.320 --> 06:16.280
+și vom obține această singură clasă de Cantor și avem nevoie, de asemenea, de o implicită voi renunța la această p tag și
+
+06:16.280 --> 06:23.790
+în loc de nici o scuză cum o să spun și să pun text de tip.
+
+06:24.240 --> 06:26.070
+Vă amintiți că este implicit.
+
+06:26.120 --> 06:33.480
+De asemenea, putem adăuga un element de inserare a atributului pentru a introduce elemente.
+
+06:33.500 --> 06:41.130
+Deci, acum dacă salvez și reîmprospătesc, am un loc de substituție și pot să scriu tot ce vreau
+
+06:41.130 --> 06:41.910
+acum.
+
+06:42.800 --> 06:43.900
+Ei nu fac nimic.
+
+06:43.940 --> 06:50.240
+În mod ideal, atunci când dăm clic pe introduceți, se adaugă în partea de jos a listei.
+
+06:50.430 --> 06:51.440
+Deci, cum putem face asta?
+
+06:52.390 --> 06:55.410
+Mai întâi trebuie să selectăm aceste elemente.
+
+06:55.540 --> 07:02.110
+Deci, singurul lucru care îmi place cu adevărat este să vă asigur că avem nume de clasă bune sau idei pentru aceste elemente
+
+07:02.110 --> 07:04.690
+astfel încât să le putem lua cu ușurință.
+
+07:04.720 --> 07:14.050
+Deci, cu siguranta dorim sa apucam butonul care are o clasa peste intra, dar de fapt imi place sa folosesc Id pentru ca
+
+07:14.060 --> 07:18.810
+va fi într-adevăr foarte rapid pentru browser-ul Web să-și ia un ID, deoarece există doar unul dintre ei.
+
+07:18.970 --> 07:22.320
+Performanță înțeleaptă, deși este foarte minuscule
+
+07:22.450 --> 07:23.200
+nu ajută.
+
+07:23.200 --> 07:25.880
+Deci voi schimba codul de intrare.
+
+07:26.150 --> 07:32.990
+Și, de asemenea, dorim să luăm intrarea utilizatorului, astfel încât să putem da un ID de intrare a utilizatorului.
+
+07:34.120 --> 07:42.400
+Acum, să ne deschidem fișierul JS pentru scenariu și să ne gândim la câteva lucruri pe care le dorim să le selectăm.
+
+07:42.510 --> 07:52.750
+Vrem să selectăm intrarea și butonul pentru a putea face acest lucru prin semnarea acestora la punctul variabil al documentului
+
+07:52.990 --> 07:59.620
+getElementById.
+
+07:59.730 --> 08:02.070
+Iar aici îl putem spune lui Antar.
+
+08:02.070 --> 08:08.910
+Rețineți că am semnat că ID-ul și intrarea vor fi document.
+
+08:08.940 --> 08:21.040
+Obțineți ajutor și prin ID și vom face intrarea utilizatorului aici și dorim să adăugăm un buton de ascultător al evenimentului.
+
+08:21.160 --> 08:22.680
+Deci, să facem asta.
+
+08:22.840 --> 08:35.260
+Voi spune că butonul Dot avea ascultător de evenimente Vrem să ascultăm evenimentul cu clic și vrem să îl interpretăm
+
+08:35.290 --> 08:38.780
+acțiunea funcția de acum.
+
+08:38.860 --> 08:45.100
+Înainte de a intra în codul actual, este întotdeauna bine să testați ceea ce am scris până acum, așa că suntem doar
+
+08:45.100 --> 08:50.760
+care va face consola jurnal de click este de lucru.
+
+08:51.010 --> 08:56.970
+Să salvăm deschiderea consolei și reîmprospătarea.
+
+08:57.120 --> 09:00.320
+Și dacă faceți clic pe clic, funcționează corect.
+
+09:00.370 --> 09:02.380
+Totul arată bine până acum.
+
+09:02.380 --> 09:04.880
+Ideal putem introduce ceva aici.
+
+09:05.050 --> 09:08.860
+Iar când dau clic pe Enter, se adaugă în partea de jos a listei.
+
+09:10.640 --> 09:12.970
+Cum putem face asta, să ne gândim la asta.
+
+09:13.070 --> 09:22.420
+Primul lucru pe care dorim să-l facem este că trebuie să creăm o aliniere, astfel încât orice ar trebui să fie introdus
+
+09:22.420 --> 09:30.690
+adăugat la partea de jos a lumanari poate folosi ceva numit metoda de creare element.
+
+09:32.030 --> 09:43.910
+Așadar, putem face aliată variabilă egal cu documentul Daut creare element din nou o altă metodă pe care o oferă documentul
+
+09:43.910 --> 09:47.390
+un sfarsit aici vom spune ce element dorim sa cream.
+
+09:47.440 --> 09:53.980
+În cazul nostru va fi o listă pe care un aliat o poate minți acum.
+
+09:53.990 --> 09:56.730
+Tocmai am creat că trăiește în acest Bowl.
+
+09:56.750 --> 09:59.620
+Vrem să o atașăm la partea de jos a listei.
+
+10:00.630 --> 10:06.850
+Din nou obiectul documentului ne dă ceva numit atașați copilul.
+
+10:06.890 --> 10:17.960
+Deci, dacă fac o minciună care atașează copilul acum aici, pentru a fi adus la copil dacă ne amintim de întreaga noastră viață
+
+10:17.960 --> 10:26.170
+diagrama căminului vedem că fiecare element are un text care va fi numit nod.
+
+10:26.480 --> 10:32.310
+Așa că trebuie să adăugăm o notă de text, să facem asta aici.
+
+10:32.410 --> 10:43.630
+Va trebui să facem ceva denumit nod de creare a unui document și apoi să spunem doar testarea.
+
+10:43.650 --> 10:50.850
+Așa că acum am atașat testele la aliatul pe care tocmai l-am creat.
+
+10:50.850 --> 11:02.360
+Din nou, revenind la diagrama noastră, am creat un element aliat și am adăugat textul testului.
+
+11:02.510 --> 11:09.420
+Deci, ultimul lucru pe care trebuie să-l facem este să atașăm această listă neordonată.
+
+11:09.430 --> 11:20.950
+Chiar acum ceea ce am făcut este că am creat un aliat care spune testarea.
+
+11:21.160 --> 11:26.790
+Dar, de fapt, acest lucru nu este atașat de tot ce trăiește în programul nostru.
+
+11:26.800 --> 11:30.920
+Dar trebuie să o atașăm la lista neordonată.
+
+11:31.730 --> 11:38.410
+Și modul în care facem acest lucru este bine că luăm lista neordonată și apoi adăugăm la ea.
+
+11:38.420 --> 11:50.250
+Așadar, din nou, vom selecta un selector de interogări pentru lista de adrese solicitate
+
+11:53.290 --> 11:56.030
+și vom alege pentru toți.
+
+11:56.230 --> 11:57.970
+Și acum putem spune
+
+12:00.950 --> 12:02.550
+Vreau să-l anexez
+
+12:05.440 --> 12:12.570
+astfel încât să vă atașați un copil Ei bine, aceasta este minciună când o creăm.
+
+12:13.470 --> 12:14.540
+Deci, să vedem asta în acțiune.
+
+12:14.540 --> 12:17.000
+O să salvez și să reîmprospătesc.
+
+12:17.250 --> 12:18.540
+Voi închide consola.
+
+12:18.580 --> 12:23.440
+O să apăs pe asta.
+
+12:23.630 --> 12:24.650
+Functioneaza.
+
+12:25.100 --> 12:26.500
+Lasă-mă să-l reîmprospătesc.
+
+12:27.950 --> 12:28.850
+Acolo te duci.
+
+12:29.240 --> 12:32.520
+Deci, acest lucru este de lucru și am învățat câteva lucruri noi aici.
+
+12:33.330 --> 12:36.750
+Unul este că putem crea un element.
+
+12:36.750 --> 12:43.070
+Așa că îi dăm doar eticheta pe care dorim să o creăm, dar acest element trebuie să fie.
+
+12:43.110 --> 12:47.880
+Ei bine, dacă doriți să afișați ceva, trebuie să aveți un fel de text în interiorul lui.
+
+12:47.970 --> 12:50.440
+Deci asta este.
+
+12:50.490 --> 12:57.200
+Aici și modul în care funcționează modelul de obiect al documentului este pentru a crea un text pe care îl faceți
+
+12:57.380 --> 13:02.140
+creați notă de text și puneți ceea ce doriți în interiorul acestuia.
+
+13:02.630 --> 13:08.690
+Acum am creat aprovizionarea, dar trebuie să o atașăm la ceva care face parte din perspectiva reală
+
+13:08.690 --> 13:09.470
+acum.
+
+13:09.470 --> 13:19.620
+În cazul nostru, vrem să o atașăm la lista neordonată și să folosim copilul apan care îl adaugă ca pe un copil
+
+13:19.620 --> 13:22.210
+trei sunt destul de utile.
+
+13:22.420 --> 13:24.640
+Deci, trebuie doar să le exersați și să le aduceți aminte.
+
+13:25.430 --> 13:28.350
+Dar avem ceva de lucru aici, care este bun.
+
+13:29.340 --> 13:36.980
+Dar, în mod ideal, putem pune ceva aici și nu doar o testare statică.
+
+13:37.050 --> 13:38.520
+Deci, cum putem face asta?
+
+13:38.800 --> 13:48.800
+Avem deja apucat de intrare și modul în care obținem valoarea dintr-o intrare este introdusă.
+
+13:50.180 --> 13:58.700
+Daut, nu mai avem nevoie de paranteze, ci doar de testele pe care le putem face aici.
+
+13:58.720 --> 13:59.710
+Consola dialog
+
+14:07.500 --> 14:08.430
+am reîmprospătat.
+
+14:08.460 --> 14:17.260
+Dacă dau clic pe Enter, mă salut și ar trebui să fie de asemenea atașat la partea de jos aici.
+
+14:21.230 --> 14:21.640
+O.K.
+
+14:22.120 --> 14:27.790
+Deci, avem o listă de bază de a face, putem introduce chestii și răspuns rapid.
+
+14:27.910 --> 14:35.750
+Dar ce se întâmplă dacă este gol și dau clic pe enter la DC care continuă să adaugă chestii.
+
+14:35.850 --> 14:44.520
+În mod ideal, putem să ignorăm că, dacă intrarea este goală, introduceți bine nu trebuie să faceți nimic așa cum procedăm.
+
+14:44.550 --> 14:47.820
+Ei bine, suna ca o afirmație condiționată ar putea fi utilă aici.
+
+14:47.920 --> 14:52.000
+Putem face dacă valoarea de intrare este.
+
+14:52.240 --> 14:54.440
+Ei bine ce putem face aici pentru a testa.
+
+14:54.790 --> 15:02.680
+Dacă vă aduceți aminte că avem proprietate de lungime totală pe șiruri, lungimea proprietății ne spune câte caractere
+
+15:02.740 --> 15:08.500
+un șir are.
+
+15:08.540 --> 15:16.520
+Deci, putem face ceva de-a lungul acestor linii pentru a spune dacă puneți o valoare la tot ce este mai mare decât zero.
+
+15:17.590 --> 15:26.860
+Atunci vom muta acest lucru aici.
+
+15:27.070 --> 15:28.090
+Altfel bine.
+
+15:28.230 --> 15:31.640
+În caz contrar, nu trebuie să facem nimic.
+
+15:31.730 --> 15:36.600
+Vom lăsa evenimentul respectiv să se întâmple fără acțiuni.
+
+15:36.720 --> 15:44.700
+OK, să vedem că în acțiune poți salva și reîmprospăta și nu voi face nimic și nu apăs pe ENTER
+
+15:45.150 --> 15:46.650
+apasa Enter.
+
+15:47.070 --> 15:51.720
+Dar dacă scriu ceva, o adaugă la listă.
+
+15:51.800 --> 15:57.290
+Dar iată o altă problemă pe care o pot adăuga pentru totdeauna.
+
+15:57.300 --> 16:01.340
+În mod ideal după ce intru în ceva, totul se limpezește.
+
+16:01.390 --> 16:09.840
+Așadar, lasă-mă să reîmprospătesc și aici ce putem face la sfârșitul tuturor acestor lucruri, în care putem să le spunem și să le punem
+
+16:09.840 --> 16:14.080
+valoarea este egală cu un șir gol.
+
+16:16.050 --> 16:23.790
+După ce am creat noul aliat și am adăugat la lista neordonată, vreau ca valoarea de intrare să fie acum complet
+
+16:23.790 --> 16:25.160
+goliți un șir gol.
+
+16:25.950 --> 16:28.120
+Să salvăm și să reîmprospătăm.
+
+16:28.330 --> 16:34.620
+Să încercăm să intrăm rapid și să privim la asta.
+
+16:34.650 --> 16:39.570
+Acum trebuie să mai scriu ceva nou.
+
+16:41.590 --> 16:46.680
+Toate lucrurile încep să meargă mai bine, dar este un fel de enervant că trebuie să mai fac clic.
+
+16:46.790 --> 16:52.230
+Ar fi frumos să puteți apăsa din nou pe Enter din nou dacă ne uităm la evenimente.
+
+16:52.230 --> 16:55.770
+De asemenea, avem evenimente de tastatură și presă de taste.
+
+16:55.770 --> 17:00.100
+Cum sugerează numele, ascultă un fel de apăsare de taste.
+
+17:00.280 --> 17:05.900
+Și din fericire pentru noi putem să ascultăm tasta enter sau cheia de întoarcere.
+
+17:07.290 --> 17:09.580
+Acum cum facem asta?
+
+17:09.840 --> 17:10.970
+Să încercăm mai întâi.
+
+17:11.020 --> 17:20.090
+Ei bine, doar copiați și lipiți acest lucru și de data aceasta pe intrarea pe care o voi spune în loc de evenimentul Click
+
+17:20.150 --> 17:22.210
+Voi spune presa cheie.
+
+17:22.220 --> 17:27.950
+Așadar, ascultăm pentru evenimentul de presă cheie și dorim să facem exact același lucru pe care l-am făcut
+
+17:28.420 --> 17:29.930
+așa că funcționează.
+
+17:29.930 --> 17:32.890
+Deci, cum știm când tasta enter este suprimată.
+
+17:34.000 --> 17:42.260
+Vom avea ceva numit coduri de caractere și care este că putem asculta ce cheie a fost tastată și fiecare
+
+17:42.260 --> 17:45.260
+unul este asociat cu un cod cu acel număr.
+
+17:45.290 --> 17:51.620
+Deci, acest site Web din nou, care sunt legate de eu pot doar apasă pentru o cheie aici și îmi voi spune exact
+
+17:51.980 --> 17:57.010
+ce cod are și dacă apăs pe Enter primesc codul cheie 13.
+
+17:57.170 --> 18:03.920
+Deci, ascultăm pentru un cod cheie 13, dar din nou, cum accesăm acest lucru.
+
+18:03.980 --> 18:06.130
+Deschideți consola aici.
+
+18:06.170 --> 18:14.530
+Vă voi arăta că modul în care o facem este că ascultăm ceva numit punct de eveniment care Și eu o să plec
+
+18:14.530 --> 18:15.610
+pentru a consola înregistrați acest lucru
+
+18:19.090 --> 18:26.890
+acum si aici voi comenta softul astfel incat sa puteti vedea de fiecare data cand un ascultator a adaugat un eveniment.
+
+18:26.890 --> 18:32.540
+Avem apăsarea de taste și această funcție primește automat și un parametru.
+
+18:32.980 --> 18:34.300
+Acesta este evenimentul.
+
+18:34.360 --> 18:37.700
+Așa că putem să-i spunem că o putem numi eveniment.
+
+18:37.720 --> 18:49.500
+În cazul meu, o voi numi eveniment și acum când utilizatorul apasă o cheie, îi dă această funcție un eveniment de
+
+18:49.500 --> 18:54.720
+descrierea acelui eveniment care sa întâmplat de fapt consola Leisure log-ul evenimentului și a vedea ce
+
+18:54.720 --> 18:55.070
+este.
+
+18:55.110 --> 19:05.970
+Mă voi reîmprospăta și voi spune să țineți apăsată tasta și să vedeți că am evenimentul tastaturii și aici am un întreg
+
+19:05.970 --> 19:11.240
+mulțime de informații despre evenimentul pe care tocmai am obținut-o chiar când am apăsat cheia.
+
+19:11.340 --> 19:18.760
+Dar chestia cu adevărat importantă aici este că vedem că există un cod cheie și există și ambele
+
+19:18.760 --> 19:33.900
+dintre ele 107, dacă apăs ca tasta Enter, codul cheie este 13, care este 13.
+
+19:34.060 --> 19:36.090
+Să-i dăm drumul.
+
+19:36.330 --> 19:52.580
+Voi spune acum că dacă valoarea de intrare este mai mare decât zero și evenimentul codul cu tasta punct este egal cu 13 atunci
+
+19:53.150 --> 19:55.230
+adăugați elementul în listă.
+
+19:55.460 --> 19:57.790
+Să salvăm și să reîmprospătăm să dăm asta.
+
+19:58.070 --> 20:05.970
+Voi spune că listele de cumpărături vor avea nevoie de pantaloni sau de Precentor așa.
+
+20:07.280 --> 20:10.900
+Și asta la Jojo îl adaugă pe listă
+
+20:13.660 --> 20:21.530
+totul arată bine, dar există o problemă pe care o am aici și care este că avem o mulțime de repetări
+
+20:21.580 --> 20:22.900
+cod.
+
+20:22.900 --> 20:24.780
+Acest lucru pare cu adevărat inutil.
+
+20:24.790 --> 20:31.630
+Și așa cum am spus mai devreme, unul dintre principiile de a fi un dezvoltator este uscat, ceea ce înseamnă că nu repetați
+
+20:31.630 --> 20:33.100
+tu.
+
+20:33.100 --> 20:35.320
+Acest lucru nu este foarte amplu sau este.
+
+20:35.320 --> 20:40.810
+Se pare că suntem doar copiați și lipiți codul și imaginați-vă dacă am avea o mulțime de evenimente acest lucru se va întâmpla
+
+20:40.810 --> 20:42.220
+fi un dosar masiv.
+
+20:42.340 --> 20:48.130
+Deci, să extragem o parte din logică și să vă arătăm cum putem face ceva numit refactoring
+
+20:48.130 --> 20:50.620
+face codul să arate mai bine.
+
+20:50.620 --> 20:57.910
+Un lucru pe care îl putem face este faptul că se pare că în cazul nostru și facem același lucru pe care îl verificăm
+
+20:57.910 --> 21:01.570
+că lungimea valorii de intrare este mai mare decât zero.
+
+21:02.020 --> 21:12.480
+Deci, dacă putem adăuga o funcție numită aici și pusă pe toată lungimea și așa cum sugerează și numele pentru aceasta
+
+21:13.570 --> 21:21.420
+și pune această valoare în sus lungime, dar amintiți-vă ca o funcție avem nevoie pentru a reveni ceva altfel.
+
+21:21.480 --> 21:26.920
+Ei bine, noi vom conduce această funcție și se va spune că nedefinit și nedefinit nu poate fi bine nedefinit
+
+21:26.920 --> 21:27.750
+la mai mult de zero.
+
+21:27.750 --> 21:29.250
+Asta nu are sens.
+
+21:29.280 --> 21:33.880
+Așa că întoarceți lenth.
+
+21:33.900 --> 21:43.080
+Deci, din nou, am extras asta, așa că putem să spunem și să ne lăsăm să fugim
+
+21:43.080 --> 21:47.930
+întoarce este mai mare decât zero și vom face la fel și aici.
+
+21:51.310 --> 21:58.090
+Acum, aceasta este o schimbare minoră, dar acum avem ceva pe care îl putem folosi oriunde, oricând creăm
+
+21:58.090 --> 21:59.470
+noul ascultător al evenimentului.
+
+21:59.470 --> 22:00.940
+Ce altceva putem curata.
+
+22:00.940 --> 22:06.130
+Se pare că întregul bloc de cod se repetă aici.
+
+22:07.090 --> 22:20.550
+Deci, din nou, putem apela un element de listă de creare a funcțiilor, aici putem elimina acest cod adăugat aici
+
+22:24.060 --> 22:26.130
+și acum putem spune doar
+
+22:30.660 --> 22:39.410
+creați acest element și eliminați din nou acest lucru și spuneți că creați această așezare
+
+22:42.230 --> 22:45.640
+Să salvăm și să vedem cum funcționează totul acum.
+
+22:45.760 --> 22:54.660
+Doriți să vă reîmprospătați, asigurați-vă că consola nu-mi dă nici o eroare și voi spune Shell și dacă
+
+22:54.660 --> 22:55.470
+Eu apăs pe Enter
+
+22:58.090 --> 22:59.320
+totul funcționează.
+
+22:59.320 --> 23:04.040
+Și dacă totul e gol, nu pot adăuga nimic.
+
+23:04.040 --> 23:04.590
+In regula.
+
+23:04.590 --> 23:06.450
+Codul arată bine.
+
+23:07.360 --> 23:09.070
+Citește destul de bine.
+
+23:09.920 --> 23:18.430
+Ultimul lucru pe care vreau să-l fac este să nu am funcția aici și să pot extrage asta.
+
+23:18.460 --> 23:23.830
+Pot spune lista funcțiilor după
+
+23:28.910 --> 23:36.800
+și putem spune să copiați această funcție și să o puneți în dvs. și nu mai avem nevoie de această funcție.
+
+23:40.730 --> 23:53.570
+Și acum putem spune să adăugăm lista după clic și putem avea și o listă de funcții după tastă
+
+23:53.590 --> 23:55.570
+presa.
+
+23:55.650 --> 23:58.650
+Și iată partea complicată.
+
+23:58.700 --> 24:05.430
+Acum trebuie să copiem acest lucru.
+
+24:05.610 --> 24:12.290
+Dar înainte de a părăsi această funcție, veți vedea că trebuie să primim un eveniment cu acest lucru.
+
+24:12.480 --> 24:17.960
+Deci, trebuie să primească un parametru pentru că avem nevoie de acele informații din eveniment.
+
+24:17.970 --> 24:28.140
+Deci, din nou, când trecem evenimentul, eliminați această funcție și avem codul Tukey al evenimentului.
+
+24:28.240 --> 24:31.760
+Să vedem dacă totul funcționează așa cum era de așteptat.
+
+24:32.920 --> 24:36.730
+O să salvez reîmprospătarea.
+
+24:36.910 --> 24:42.300
+Vezi dacă există erori în consola și apăsați apa.
+
+24:42.790 --> 24:47.330
+Sucul de apă are suc.
+
+24:47.500 --> 24:52.080
+Și dacă nu apăs nimic sau nu încerc nimic, tot funcționează.
+
+24:52.120 --> 24:56.210
+Să ne uităm la acest cod o dată și să vedem ce se întâmplă.
+
+24:56.230 --> 25:05.220
+Am început să selectăm elementele care ne interesează și am observat că nu suntem în mod constant
+
+25:05.230 --> 25:08.800
+de fiecare dată când avem nevoie de ele, spunând că Al Lombardi a obținut un document.
+
+25:09.100 --> 25:10.790
+Cheltuim asta.
+
+25:10.810 --> 25:14.830
+Deci, la începutul scripturilor, spunem că-și amintește asta.
+
+25:14.830 --> 25:17.520
+O să o folosesc și să o păstrez.
+
+25:17.800 --> 25:18.950
+Și același lucru cu Bud.
+
+25:18.970 --> 25:20.640
+La fel cu lista neordonată.
+
+25:22.030 --> 25:28.840
+Apoi avem o mulțime de declarații de funcționare, dar acestea nu sunt niciodată executate, deoarece spun doar hei
+
+25:29.080 --> 25:32.530
+avem această funcție, dar nimeni nu le-a condus încă.
+
+25:32.720 --> 25:39.340
+Și programul merge la fund și spune că nu am un ascultător pentru clic dacă cineva face clic
+
+25:39.670 --> 25:42.250
+pe buton rulați această funcție.
+
+25:42.590 --> 25:49.200
+Și dacă cineva are vreodată tasta apăsând tasta de intrare, apelează această funcție.
+
+25:49.330 --> 25:56.290
+Și acum de fiecare dată când fac clic pe aceasta se declanșează și se duce aici, spune că hei are o lungime mai mare
+
+25:56.290 --> 25:59.050
+decât zero, dacă este.
+
+25:59.050 --> 26:01.740
+Creați un element de listă.
+
+26:01.990 --> 26:03.400
+Și aici este.
+
+26:03.400 --> 26:10.500
+Și dacă am vreodată o apăsare de cheie, verifică dacă este o intrare mai mare decât zero.
+
+26:10.750 --> 26:19.600
+Apoi, verific pentru a vedea dacă apăs tasta enter și apoi creez un element de listă și acest lucru arată destul
+
+26:19.630 --> 26:20.470
+curat dreapta.
+
+26:20.560 --> 26:23.820
+Oricine poate veni în cazul în care știu un pic de JavaScript.
+
+26:23.830 --> 26:29.350
+Puteți citi ce se întâmplă doar din cod și pentru care vă doriți cu adevărat să vă străduiți
+
+26:29.350 --> 26:32.200
+unde nu doriți să vă repetați.
+
+26:32.200 --> 26:40.490
+Doriți să memorați în memoria cache aceste interogări, astfel încât să nu folosim prea multă putere pentru browser.
+
+26:41.550 --> 26:49.450
+Și avem totul defalcat în funcții foarte simple.
+
+26:49.690 --> 26:50.990
+Atât deocamdată.
+
+26:51.010 --> 26:57.340
+Adăugați toate elementele de listă de cumpărături de care aveți nevoie și vă vom vedea în următorul videoclip. Pa! Pa.
+�`��$�      ]\�f]\�f@��B]\�f   �    a,:https://c.udemycdn.com/10459278/ro_RO/53796fe4-27b4-4dfa-958e-47b08853ac8b.vtt?nva=20190821110613&response-content-disposition=attachment%3B+filename=%22dom-events_edit-ro.vtt%22&token=025c0496feb2925c579a6 strongly-framed 1 security-info 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 request-method GET request-Origin https://www.udemy.com response-head HTTP/2.0 200 OK
+date: Wed, 21 Aug 2019 07:06:14 GMT
+content-type: binary/octet-stream
+content-length: 27022
+etag: "4c2172079f875634d3f8e0e96ad8579d"
+last-modified: Mon, 06 Aug 2018 19:53:46 GMT
+server: AmazonS3
+vary: Origin, Access-Control-Request-Headers, Access-Control-Request-Method
+access-control-allow-methods: GET
+access-control-allow-origin: https://www.udemy.com
+access-control-max-age: 3000
+x-amz-id-2: 7MBuFpJntIXO6MpraUJScprMthF5zkvIo52YyFKyHfKixUWcetXVdn39s8SDQ/yPseHKkdvw++k=
+x-amz-meta-qqfilename: dom-events_edit-ro.vtt
+x-amz-request-id: DC2FC6BA50B4F08C
+access-control-allow-credentials: true
+age: 11950380
+accept-ranges: bytes
+X-Firefox-Spdy: h2
+ original-response-headers date: Wed, 21 Aug 2019 07:06:14 GMT
+content-type: binary/octet-stream
+content-length: 27022
+etag: "4c2172079f875634d3f8e0e96ad8579d"
+last-modified: Mon, 06 Aug 2018 19:53:46 GMT
+server: AmazonS3
+vary: Origin, Access-Control-Request-Headers, Access-Control-Request-Method
+access-control-allow-methods: GET
+access-control-allow-origin: https://www.udemy.com
+access-control-max-age: 3000
+x-amz-id-2: 7MBuFpJntIXO6MpraUJScprMthF5zkvIo52YyFKyHfKixUWcetXVdn39s8SDQ/yPseHKkdvw++k=
+x-amz-meta-qqfilename: dom-events_edit-ro.vtt
+x-amz-request-id: DC2FC6BA50B4F08C
+access-control-allow-credentials: true
+age: 11950380
+accept-ranges: bytes
+X-Firefox-Spdy: h2
+ ctid 1 eTLD1Access 1;0;3847452355, net-response-time-onstart 332 net-response-time-onstop 336   i�

@@ -1,0 +1,78 @@
+{
+  "Version": "19.04",
+  "OEM": {
+    "Vendor": "Gigabyte Technology Co., Ltd.",
+    "Product": "H81M-S1"
+  },
+  "BIOS": {
+    "Vendor": "American Megatrends Inc.",
+    "Version": "FB"
+  },
+  "Arch": "amd64",
+  "GPU": [
+    {
+      "Vendor": "8086",
+      "Model": "0412"
+    },
+    {
+      "Vendor": "10de",
+      "Model": "1380"
+    }
+  ],
+  "RAM": 8.1,
+  "Disks": [
+    256.1
+  ],
+  "Partitions": [
+    149,
+    47.8,
+    47.8
+  ],
+  "Screens": [
+    {
+      "Size": "477mmx268mm",
+      "Resolution": "1920x1080",
+      "Frequency": "60.00"
+    }
+  ],
+  "Autologin": false,
+  "LivePatch": false,
+  "Session": {
+    "DE": "ubuntu:GNOME",
+    "Name": "ubuntu",
+    "Type": "x11"
+  },
+  "Language": "en_IN",
+  "Timezone": "Asia/Kolkata",
+  "Install": {
+    "Media": "Ubuntu 19.04 \"Disco Dingo\" - Release amd64 (20190416)",
+    "Type": "GTK",
+    "OEM": false,
+    "PartitionMethod": "manual",
+    "DownloadUpdates": true,
+    "Language": "en",
+    "Minimal": false,
+    "RestrictedAddons": true,
+    "Stages": {
+      "0": "language",
+      "3": "console_setup",
+      "4": "prepare",
+      "9": "partman",
+      "14": "partman",
+      "19": "partman",
+      "23": "partman",
+      "28": "partman",
+      "29": "partman",
+      "31": "partman",
+      "49": "partman",
+      "62": "partman",
+      "69": "partman",
+      "71": "partman",
+      "81": "start_install",
+      "94": "timezone",
+      "109": "usersetup",
+      "142": "user_done",
+      "905": "done"
+    }
+  }
+}

@@ -1,0 +1,296 @@
+WEBVTT
+
+00:00.810 --> 00:01.730
+Selamat datang kembali.
+
+00:01.890 --> 00:05.450
+Sudah waktunya untuk kembali membangun halaman web.
+
+00:05.670 --> 00:09.050
+Tapi kali ini dengan JavaScript.
+
+00:09.330 --> 00:15.030
+Sampai sekarang kami telah belajar HTML dan CSS dan kemudian kami belajar
+
+00:15.240 --> 00:22.380
+JavaScript tetapi secara terpisah. Kekuatan sebenarnya datang ketika kita menggabungkan ketiga teknologi ini. Sekarang video sebelumnya saya sebutkan
+
+00:22.380 --> 00:30.030
+bagaimana JavaScript memungkinkan tindakan dilakukan di halaman web Nah apa maksud mereka di sana?
+
+00:31.040 --> 00:37.090
+Dengan menambahkan JavaScript ke halaman web kami, kami sekarang memiliki kekuatan yang tidak
+
+00:37.130 --> 00:43.790
+pernah kami miliki dengan HTML dan CSS. Kita dapat mengubah semua elemen HTML
+
+00:43.980 --> 00:51.120
+di halaman, kita dapat mengubah semua atribut HTML di halaman, mengubah semua gaya
+
+00:51.120 --> 00:59.400
+CSS pada halaman, menghapus elemen dan atribut HTML yang ada, menambahkan elemen dan atribut HTML baru
+
+00:59.400 --> 01:08.570
+dan JavaScript juga dapat bereaksi terhadap acara HTML yang ada atau dapat membuat acara HTML sendiri di halaman.
+
+01:08.580 --> 01:15.370
+Sekarang beberapa dari hal-hal ini seperti mengubah ubin CSS atau atribut dan elemen HTML.
+
+01:15.380 --> 01:24.710
+Yah kita bisa melakukannya sebelumnya tetapi dengan JavaScript kita bisa melakukan ini saat pengguna ada di halaman.
+
+01:24.720 --> 01:27.410
+Mari kita lihat diagram.
+
+01:27.580 --> 01:34.300
+Kami meminta HTML dan kemudian browser web melihat tag tautan.
+
+01:34.700 --> 01:46.320
+Raih CSS dan sebelum kami menggunakan JavaScript jika kami ingin mengubah gaya atau mengubah tampilan HTML.
+
+01:46.320 --> 01:49.100
+Mungkin kita ingin mengklik halaman 'Tentang'.
+
+01:49.120 --> 02:01.530
+Meskipun kami akan meminta HTML dan CSS kami lagi untuk mengubah tampilan halaman web tetapi sekarang dengan JavaScript yang Anda butuhkan adalah
+
+02:02.190 --> 02:10.650
+ini dan JavaScript dapat melakukan semuanya untuk Anda jika Anda ingin semuanya pada halaman
+
+02:10.650 --> 02:12.070
+yang sama.
+
+02:12.120 --> 02:16.260
+Sekarang di bagian ini kita akan mempelajari semua itu. Untuk melakukan itu,
+
+02:16.260 --> 02:21.090
+kita harus kembali ke diagram dan memahami dua hal.
+
+02:21.150 --> 02:26.780
+Satu adalah DOM dan yang kedua adalah mesin JavaScript.
+
+02:26.850 --> 02:34.140
+Sampai di sini kita berbicara bagaimana HTML diminta kemudian CSS, lalu browser melakukan sesuatu yang istimewa, itu
+
+02:34.140 --> 02:36.340
+menciptakan sesuatu yang disebut DOM.
+
+02:36.480 --> 02:39.160
+Itu terlihat seperti ini.
+
+02:39.340 --> 02:45.860
+Ketika halaman web dimuat, browser menciptakan DOM yang merupakan singkatan dari Document Object Model.
+
+02:46.060 --> 02:50.880
+Anda lihat di sini bahwa kami memiliki dokumen dengan elemen HTML root.
+
+02:51.070 --> 02:56.460
+Kami memiliki elemen kepala, elemen tubuh dengan beberapa tag 'a' dan tag 'h1'.
+
+02:56.470 --> 02:58.000
+Apa maksudnya ini?
+
+02:58.030 --> 03:01.520
+Anda sebenarnya dapat melihat hal yang sama di konsol, jadi mari kita periksa.
+
+03:03.110 --> 03:08.990
+Jadi DOM atau Model Obyek Dokumen hanyalah 'dokumen'.
+
+03:09.040 --> 03:12.490
+Jadi di sini jika kita membuka dokumen di sana Anda pergi.
+
+03:12.560 --> 03:17.440
+Kami memiliki hal yang sama yang kami lihat di tab elemen. Biarkan saya menutup gaya di sini.
+
+03:18.530 --> 03:24.890
+Tepat di konsol.
+
+03:24.990 --> 03:27.580
+Sekarang mengapa kita membutuhkan DOM?
+
+03:27.720 --> 03:37.050
+Kami membutuhkan cara untuk mendapatkan, mengubah, menambah, atau menghapus elemen HTML, sehingga DOM dibuat agar kami dapat melakukan
+
+03:37.050 --> 03:39.070
+hal seperti ini.
+
+03:39.240 --> 03:42.530
+'dokumen. tulis ("helloooo")
+
+03:44.170 --> 03:51.590
+'dan perhatikan apa yang terjadi pada halaman web, itu berubah menjadi
+
+03:51.730 --> 03:52.590
+"helloooo".
+
+03:52.600 --> 04:00.700
+Jadi DOM adalah sesuatu yang dibuat oleh browser untuk memungkinkan kami memodifikasi HTML dan CSS.
+
+04:00.970 --> 04:04.420
+OK sekarang bagaimana dengan frasa lain yang saya
+
+04:04.420 --> 04:07.770
+sebutkan, mesin JavaScript? Sampai pada titik
+
+04:07.770 --> 04:14.540
+ini kita berbicara tentang bagaimana setiap browser memuat JavaScript dan secara ajaib membacanya.
+
+04:14.570 --> 04:16.490
+Apa artinya itu?
+
+04:16.690 --> 04:24.110
+Yah setiap browser memiliki hal yang disebut 'mesin JavaScript' dan mereka semua memiliki nama yang keren.
+
+04:24.110 --> 04:35.710
+Chrome memiliki 'mesin V8', Edge memiliki 'Chalker Core', Safari memiliki 'Nitro' dan Firefox memiliki 'SpiderMonkey'. Dan apa yang mereka lakukan adalah mereka
+
+04:35.720 --> 04:43.670
+yang melihat file JavaScript dan membacanya baris demi baris dan menjalankan
+
+04:43.670 --> 04:44.830
+JavaScript.
+
+04:44.840 --> 04:48.300
+Jadi bagaimana keduanya mengikat?
+
+04:48.530 --> 04:53.400
+Nah sekarang kita bisa menggunakan JavaScript untuk berbicara dengan DOM.
+
+04:53.540 --> 04:56.960
+Anda lihat ketika kami melakukan document dot write (dokumen. tulis)
+
+05:00.220 --> 05:02.110
+itu JavaScript bukan?
+
+05:02.140 --> 05:09.390
+Itu terlihat seperti objek dan memiliki metode menulis
+
+05:09.430 --> 05:18.250
+yang menerima argumen 'helloooo'. Browser web memungkinkan kita untuk mengakses DOM melalui objek dokumen dan
+
+05:18.250 --> 05:19.330
+itulah objeknya.
+
+05:19.420 --> 05:26.710
+Dan sekarang kami memiliki kekuatan yang kami sebutkan sebelumnya untuk melakukan semua hal yang pada dasarnya
+
+05:26.830 --> 05:29.410
+mengubah tampilan halaman web kami.
+
+05:29.410 --> 05:38.530
+Jadi mengetahui apa yang kita lakukan, dokumen adalah layar yang kita lihat di browser. Tepat di sini dan dokumen seperti yang saya
+
+05:38.650 --> 05:41.210
+sebutkan hanyalah sebuah objek.
+
+05:41.500 --> 05:48.940
+Sekarang apakah ia memiliki objek induk? Dan faktanya memang demikian.
+
+05:48.940 --> 05:51.850
+Ini disebut jendela.
+
+05:52.090 --> 05:59.610
+Dan Anda lihat di sini jendela adalah objek dengan banyak properti.
+
+05:59.810 --> 06:08.130
+Tetapi jika kita gulir ke sini kita melihat bahwa salah satu properti adalah dokumen dan bahkan menyoroti untuk
+
+06:08.130 --> 06:13.790
+kita dan jika kita membuka dokumen itu memiliki lebih banyak properti.
+
+06:13.830 --> 06:24.730
+Juga, ingat 'peringatan' dan 'cepat' lihat bahwa objek jendela memiliki peringatan.
+
+06:24.790 --> 06:26.570
+Jadi mari kita coba sesuatu.
+
+06:26.790 --> 06:34.960
+Jika saya lakukan 'jendela. alert ("check check") 'apakah ini masih berfungsi?
+
+06:34.960 --> 06:39.920
+Ayo lihat? Ya itu masih berfungsi.
+
+06:39.960 --> 06:49.790
+Alasan 'lansiran' berfungsi seperti ini adalah karena 'jendelanya' - Anda dapat menganggapnya sebagai induk segala sesuatu
+
+06:49.800 --> 06:59.680
+dan jendela peramban adalah objek yang menggambarkan peramban ini dan kapan pun Anda menggunakan metode seperti
+
+07:00.070 --> 07:08.210
+'lansiran' jika jangan menentukan apa pun yang diasumsikan bahwa Anda berbicara tentang objek
+
+07:08.370 --> 07:16.410
+jendela, induk terbesar. Tapi ingat dokumen. menulis'?
+
+07:17.730 --> 07:25.340
+Bisakah kita melakukan itu pada objek jendela?
+
+07:25.460 --> 07:31.100
+Mari kita periksa ini. Saya mendapatkan jendela kesalahan. tulis 'bukan
+
+07:31.110 --> 07:36.410
+fungsi karena tidak ada sebagai properti' jendela
+
+07:36.420 --> 07:43.310
+'tt ada sebagai properti dokumen yang merupakan properti' jendela '.
+
+07:43.320 --> 07:54.580
+Jadi mari kita rekap. Peramban web memiliki objek jendela yang memiliki properti 'dokumen' yang menentukan
+
+07:54.580 --> 07:58.390
+apa yang harus ditampilkan untuk memutuskan apa
+
+07:58.390 --> 08:10.030
+yang akan ditampilkan objek dokumen, model objek dokumen membaca HTML dan CSS dan kemudian JavaScript yang dibaca baris demi baris oleh sesuatu
+
+08:10.360 --> 08:13.590
+seperti mesin JavaScript - Di
+
+08:13.600 --> 08:17.380
+Google Chrome itulah mesin V-8 - membacanya.
+
+08:17.770 --> 08:27.400
+Dan jika perlu mengubah apa pun JavaScript dapat berbicara dengan objek dokumen dan
+
+08:27.600 --> 08:33.850
+memodifikasi HTML dan CSS. Dengan menggunakan kekuatan baru yang kami temukan,
+
+08:33.940 --> 08:40.510
+dalam video berikutnya kami akan mulai memanipulasi DOM untuk membuat situs web kami lebih interaktif dengan JavaScript.
+
+08:40.510 --> 08:42.100
+Mari kita mulai. Sampai jumpa
+\Ÿ #Ã      ]\íj]\ík@¶ÜF]\ík   î    a,:https://c.udemycdn.com/13589710/id_ID/2019-02-27_14-09-34-d7474a66a182bfa143abc35da8162338.vtt?nva=20190821110618&response-content-disposition=attachment%3B+filename=%22id_iddocument-object-model_edit.vtt%22&token=0d840fbdcf2ba11c0ce8a strongly-framed 1 security-info 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 request-method GET request-Origin https://www.udemy.com response-head HTTP/2.0 200 OK
+date: Wed, 21 Aug 2019 07:06:19 GMT
+content-type: application/octet-stream
+content-length: 8275
+etag: "673e13ff9743a64af557a8061a5dff1a"
+last-modified: Wed, 27 Feb 2019 15:05:10 GMT
+server: AmazonS3
+vary: Origin, Access-Control-Request-Headers, Access-Control-Request-Method
+access-control-allow-methods: GET
+access-control-allow-origin: https://www.udemy.com
+access-control-max-age: 3000
+x-amz-id-2: U8DbDlX7jZjk3w7rgq5eCXiZxclyxlcecVAO4Ke+ZBBaJvAu2+4YJRpDV7ceKk4b2Z4jM/VjHX8=
+x-amz-request-id: 799DA2FD10C6FC58
+access-control-allow-credentials: true
+age: 5126663
+accept-ranges: bytes
+X-Firefox-Spdy: h2
+ original-response-headers date: Wed, 21 Aug 2019 07:06:19 GMT
+content-type: application/octet-stream
+content-length: 8275
+etag: "673e13ff9743a64af557a8061a5dff1a"
+last-modified: Wed, 27 Feb 2019 15:05:10 GMT
+server: AmazonS3
+vary: Origin, Access-Control-Request-Headers, Access-Control-Request-Method
+access-control-allow-methods: GET
+access-control-allow-origin: https://www.udemy.com
+access-control-max-age: 3000
+x-amz-id-2: U8DbDlX7jZjk3w7rgq5eCXiZxclyxlcecVAO4Ke+ZBBaJvAu2+4YJRpDV7ceKk4b2Z4jM/VjHX8=
+x-amz-request-id: 799DA2FD10C6FC58
+access-control-allow-credentials: true
+age: 5126663
+accept-ranges: bytes
+X-Firefox-Spdy: h2
+ ctid 1 eTLD1Access 1;0;3847452355, net-response-time-onstart 252 net-response-time-onstop 255    S
